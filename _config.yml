@@ -18,9 +18,9 @@ email: 'yejin.anna.choi@gmail.com'
 description: "I'm an undergraduate student at Emory University studying data science."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://yejinannachoi.github.io" # the base hostname & protocol for your site, e.g. https://example.com
-# twitter_username: 'jamigibbs'
+twitter_username: 'jamigibbs'
 github_username: 'yejinannachoi'
-linkedin_username: 'choiyejin'
+linkedin_username: 'linkedin.com/in/choiyejin'
 
 # Build settings
 markdown: kramdown
