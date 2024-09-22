@@ -32,7 +32,7 @@ plugins:
 # Site configuration for the Jekyll 3 Pagination Gem
 # The values here represent the defaults if nothing is set
 paginate: 10
-paginate_path: "/project/page:num/"
+paginate_path: "/page:num/"
 
 pagination:
   
@@ -49,7 +49,7 @@ pagination:
   per_page: 10
 
   # The permalink structure for the paginated pages (this can be any level deep)
-  permalink: '/project/page/:num/' # Pages are index.html inside this folder (default)
+  permalink: '/page/:num/' # Pages are index.html inside this folder (default)
   #permalink: '/page/:num.html' # Pages are simple html files 
   #permalink: '/page/:num' # Pages are html files, linked jekyll extensionless permalink style.
 
