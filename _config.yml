@@ -101,6 +101,7 @@ enable_contact: false
 enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
+  - { url: '/cv', text: 'CV' }
   - { url: '/project', text: 'Project', sub_items: [
       { url: '/project/project-1', text: 'Project 1' },
       { url: '/project/project-2', text: 'Project 2' },
@@ -109,6 +110,4 @@ nav_item:
       { url: '/project/project-5', text: 'Project 5' }
     ] 
     }
-  - { url: '/cv', text: 'CV' }
   - { url: '/contact', text: 'Contact' }
-  - { url: '/about', text: 'About' }
