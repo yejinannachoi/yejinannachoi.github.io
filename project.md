@@ -2,6 +2,7 @@
 layout: inner
 title: Project
 permalink: /project/
+paginate: true
 ---
 
 <div class="post-list">
