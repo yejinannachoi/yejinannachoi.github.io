@@ -123,8 +123,8 @@ nav ul li {
     transition: opacity 0.2s ease-in-out; // Smooth transition
   }
 
-  .parent-tab:focus,
-  .parent-tab:active {
+.dropdown-toggle:focus,
+  .dropdown-toggle:active {
     outline: none;
     background-color: transparent;
   }
