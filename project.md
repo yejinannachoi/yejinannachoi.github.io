@@ -1,5 +1,5 @@
 ---
-layout: extra
+layout: inner
 title: Project
 permalink: /project/
 ---
