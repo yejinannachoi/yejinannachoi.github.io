@@ -47,8 +47,8 @@
             <ul class="nav navbar-nav navbar-right">
               {% for item in site.nav_item %}
                 <li class="dropdown {% if item.sub_items %}dropdown{% endif %}">
-                  <a href="{% if item.sub_items %}#{% else %}{{ item.url }}{% endif %}" class="dropdown-toggle" 
-                     {% if item.sub_items %}data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" onclick="if (this.getAttribute('href') === '#') { event.preventDefault(); }"{% endif %}>
+                  <a href="{% if item.sub_items %}javascript:void(0);{% else %}{{ item.url }}{% endif %}" class="dropdown-toggle" 
+                     {% if item.sub_items %}data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"{% endif %}>
                     {{ item.text }} {% if item.sub_items %}<span class="caret"></span>{% endif %}
                   </a>
                   {% if item.sub_items %}
