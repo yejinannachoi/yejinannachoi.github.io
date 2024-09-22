@@ -102,12 +102,12 @@ enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
   - { url: '/cv', text: 'CV' }
-  - { url: '/project', text: 'Project', sub_items: [
-      { url: '/project/project-1', text: 'Project 1' },
-      { url: '/project/project-2', text: 'Project 2' },
-      { url: '/project/project-3', text: 'Project 3' },
-      { url: '/project/project-4', text: 'Project 4' },
-      { url: '/project/project-5', text: 'Project 5' }
+  - { url: '/projects', text: 'Projects', sub_items: [
+      { url: '/projects/project-1', text: 'Project 1' },
+      { url: '/projects/project-2', text: 'Project 2' },
+      { url: '/projects/project-3', text: 'Project 3' },
+      { url: '/projects/project-4', text: 'Project 4' },
+      { url: '/projects/project-5', text: 'Project 5' }
     ] 
     }
   - { url: '/contact', text: 'Contact' }
