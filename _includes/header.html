@@ -44,28 +44,25 @@
               <a class="navbar-brand" href="/">{{ site.admin_name }}</a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
-           <ul class="nav navbar-nav navbar-right">
-             <li><a href="/project">Project</a></li>
-              {% for item in site.nav_item %}
-                <li class="{% if item.sub_items %}dropdown{% endif %}">
-                  <a href="{{ item.url }}" 
-                     class="{% if item.sub_items %}dropdown-toggle{% endif %}" 
-                     {% if item.sub_items %}data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"{% endif %}>
-                    {{ item.text }} {% if item.sub_items %}<span class="caret"></span>{% endif %}
-                  </a>
-                  {% if item.sub_items %}
-                    <ul class="dropdown-menu">
-                      {% for sub_item in item.sub_items %}
-                        <li><a href="{{ sub_item.url }}">{{ sub_item.text }}</a></li>
-                      {% endfor %}
-                    </ul>
-                  {% endif %}
-                </li>
-              {% endfor %}
-            </ul>
-          </div>
+            <ul class="nav navbar-nav navbar-right">
+             {% for item in site.nav_item %}
+               <li class="{% if item.sub_items %}dropdown{% endif %}">
+                 <a href="{{ item.url }}" 
+                    class="{% if item.sub_items %}dropdown-toggle{% endif %}" 
+                    {% if item.sub_items %}data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"{% endif %}>
+                   {{ item.text }} {% if item.sub_items %}<span class="caret"></span>{% endif %}
+                 </a>
+                 {% if item.sub_items %}
+                   <ul class="dropdown-menu">
+                     {% for sub_item in item.sub_items %}
+                       <li><a href="{{ sub_item.url }}">{{ sub_item.text }}</a></li>
+                     {% endfor %}
+                   </ul>
+                 {% endif %}
+               </li>
+             {% endfor %}
+           </ul>
+         </div>
       </div>
   </nav>
-  {% endif %}
-  
-</div>
+{% endif %}
