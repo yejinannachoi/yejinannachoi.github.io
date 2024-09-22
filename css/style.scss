@@ -122,6 +122,12 @@ nav ul li {
     opacity: 1;
     transition: opacity 0.2s ease-in-out; // Smooth transition
   }
+
+  .parent-tab:focus,
+  .parent-tab:active {
+    outline: none;
+    background-color: transparent;
+  }
 }
 
 nav ul .dropdown-menu {
