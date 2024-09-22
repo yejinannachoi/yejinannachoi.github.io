@@ -109,6 +109,39 @@ button.btn, input.btn {
 }
 
 /*--------------------------------------------------------------
+    1.1 Navigation & Dropdown
+--------------------------------------------------------------*/
+
+/* Dropdown styling for hover */
+nav ul li {
+  position: relative; // Make sure the dropdowns are positioned relative to the parent
+
+  &:hover .dropdown-menu {
+    display: block;  // Show dropdown when hovering over parent tab
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out; // Smooth transition
+  }
+}
+
+nav ul .dropdown-menu {
+  display: none;      // Hide dropdown by default
+  position: absolute; // Position the dropdown relative to the parent
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;  // Smooth transition for dropdown appearance
+}
+
+/* Optional: Add hover effect to parent links */
+nav ul li a:hover {
+  background-color: #444; // Change background color of the parent tab on hover
+}
+
+
+/*--------------------------------------------------------------
 	2.0 Home Hero
 --------------------------------------------------------------*/
 .hero-container {
