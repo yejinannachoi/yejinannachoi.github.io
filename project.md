@@ -1,7 +1,6 @@
 ---
-layout: extra
+layout: default
 title: Project
 permalink: /project/
-paginate: true
 ---
 
