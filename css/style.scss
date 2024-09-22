@@ -112,6 +112,19 @@ button.btn, input.btn {
     1.1 Navigation & Dropdown
 --------------------------------------------------------------*/
 
+.navbar {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navbar-header .navbar-brand {
+  padding-left: 10px;
+}
+
+.navbar-nav {
+  padding-right: 10px;
+}
+
 /* Dropdown styling for hover */
 nav ul li {
   position: relative;
