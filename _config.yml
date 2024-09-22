@@ -110,4 +110,3 @@ nav_item:
       { url: '/project/project-5', text: 'Project 5' }
     ] 
     }
-  - { url: '/contact', text: 'Contact' }
