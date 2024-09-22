@@ -122,12 +122,6 @@ nav ul li {
     opacity: 1;
     transition: opacity 0.2s ease-in-out; // Smooth transition
   }
-
-  > a {
-    pointer-events: none;  // Disable clicking on parent tab
-    color: inherit;  // Keep parent tab color unchanged when hovered
-    cursor: default; // Set the cursor to default
-  }
 }
 
 nav ul .dropdown-menu {
