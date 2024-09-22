@@ -122,15 +122,6 @@ nav ul li {
     opacity: 1;
     transition: opacity 0.2s ease-in-out; // Smooth transition
   }
-
-.dropdown-toggle {
-    &:focus,
-    &:active {
-      outline: none;
-      background-color: transparent !important;
-      color: inherit;
-    }
-  }
 }
 
 nav ul .dropdown-menu {
