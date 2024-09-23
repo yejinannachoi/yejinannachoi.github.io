@@ -7,7 +7,7 @@ categories:
 tags: ['MS Excel', 'Linear Programming', 'Optimization']
 featured_image: '/img/posts/04_phantom-jekyll-1130x864-2x.png'
 project_link: 'https://github.com/jamigibbs'
-button_icon: 'code'
+button_icon: 'code'
 button_text: 'Learn More'
 lead_text: "A minimalist Jekyll theme that you're looking at it right now"
 ---
