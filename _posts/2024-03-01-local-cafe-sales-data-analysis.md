@@ -1,6 +1,6 @@
 ---
 layout: inner
-position: left
+position: right
 title: 'Local Cafe Sales Data Analysis'
 date: 2024-03-01 00:00:00
 categories:
