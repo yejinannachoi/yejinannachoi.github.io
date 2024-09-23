@@ -100,7 +100,7 @@ button.btn, input.btn {
   position: relative;
   top: 0;
   color: #C8D7E1;
-  margin: 1em auto 0 auto;
+  margin: 0 auto;
   display: table;
   @include transition(top .2s ease-in);
   &:hover {
