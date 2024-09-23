@@ -2,7 +2,7 @@
 layout: inner
 position: left
 title: 'Houston Food Bank Distribution'
-date: 2023-04-01 00:00:00
+date: 2023-04-03 00:00:00
 categories:
 tags: ['MS Excel', 'Linear Programming', 'Optimization']
 featured_image: '/img/posts/04_phantom-jekyll-1130x864-2x.png'
