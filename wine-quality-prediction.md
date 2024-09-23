@@ -1,6 +1,6 @@
 ---
 layout: inner
 title: Wine Quality Prediction
-permalink: /project/wine-quality-prediction/
+permalink: /portfolio/wine-quality-prediction/
 ---
 
