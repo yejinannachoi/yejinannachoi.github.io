@@ -102,10 +102,10 @@ nav_item:
   - { url: '/', text: 'Home' }
   - { url: '/cv', text: 'CV' }
   - { url: '/project', text: 'Project', sub_items: [
-      { url: '/project/project-1', text: 'Project 1' },
-      { url: '/project/project-2', text: 'Project 2' },
-      { url: '/project/project-3', text: 'Project 3' },
-      { url: '/project/project-4', text: 'Project 4' },
-      { url: '/project/project-5', text: 'Project 5' }
+      { url: '/project/local-cafe-sales-data-analysis', text: 'Local Cafe Sales Data Analysis' },
+      { url: '/project/houston-food-bank-distribution', text: 'Houston Food Bank Distribution' },
+      { url: '/project/shark-tank-deal-prediction', text: 'Shark Tank Deal Prediction' },
+      { url: '/project/wine-quality-prediction', text: 'Wine Quality Prediction' },
+      { url: '/project/airline-passenger-satisfaction', text: 'Airline Passenger Satisfaction' }
     ] 
     }
