@@ -7,7 +7,7 @@ categories:
 tags: ['RapidMiner', 'Machine Learning', 'Classification']
 featured_image: '/img/posts/01_bloc-jams-angular-1130x864-2x.png'
 project_link: 'https://github.com/jamigibbs/bloc-jams-angular'
-button_icon: 'fa-code'
+button_icon: 'code'
 button_text: 'Learn More'
 lead_text: 'A digital music player built using AngularJS'
 ---
