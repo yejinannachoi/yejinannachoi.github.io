@@ -101,11 +101,11 @@ enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
   - { url: '/cv', text: 'CV' }
-  - { url: '/project', text: 'Project', sub_items: [
-      { url: '/project/local-cafe-sales-data-analysis', text: 'Local Cafe Sales Data Analysis' },
-      { url: '/project/houston-food-bank-distribution', text: 'Houston Food Bank Distribution' },
-      { url: '/project/shark-tank-deal-prediction', text: 'Shark Tank Deal Prediction' },
-      { url: '/project/wine-quality-prediction', text: 'Wine Quality Prediction' },
-      { url: '/project/airline-passenger-satisfaction', text: 'Airline Passenger Satisfaction' }
+  - { url: '/portfolio', text: 'Portfolio', sub_items: [
+      { url: '/portfolio/local-cafe-sales-data-analysis', text: 'Local Cafe Sales Data Analysis' },
+      { url: '/portfolio/houston-food-bank-distribution', text: 'Houston Food Bank Distribution' },
+      { url: '/portfolio/shark-tank-deal-prediction', text: 'Shark Tank Deal Prediction' },
+      { url: '/portfolio/wine-quality-prediction', text: 'Wine Quality Prediction' },
+      { url: '/portfolio/airline-passenger-satisfaction', text: 'Airline Passenger Satisfaction' }
     ] 
     }
