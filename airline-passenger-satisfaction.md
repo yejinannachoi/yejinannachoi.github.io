@@ -1,6 +1,6 @@
 ---
 layout: inner
 title: Airline Passenger Satisfaction
-permalink: /project/airline-passenger-satisfaction/
+permalink: /portfolio/airline-passenger-satisfaction/
 ---
 
