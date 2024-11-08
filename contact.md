@@ -5,7 +5,7 @@ permalink: /contact/
 ---
 <div class="row" style="margin-top: 50px;">
         
-<div class="col-lg-4 col-md-8 col-6">
+<div class="col-lg-4 col-md-8 col-xs-6 col-12">
         <img src="{{ site.baseurl }}/goizueta.png" alt="Goizueta Business School Logo" class="img-fluid" style="max-width: 100%;">
 </div>
 
