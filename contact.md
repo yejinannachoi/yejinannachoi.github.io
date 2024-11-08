@@ -3,9 +3,12 @@ layout: inner
 title: Contact
 permalink: /contact/
 ---
-<img src="goizueta.png" alt="Goizueta Business School" class="img-fluid" style="max-width: 100%">
 
-<div style="display: flex; flex-direction: column; align-items: flex-start; max-width: 800px; margin: auto;">
+<div class="col-lg-7 col-md-8 col-12">
+        <img src="goizueta.png" alt="Goizueta Business School" class="img-fluid" style="max-width: 100%;">
+</div>
+    
+<div class="col-lg-5 col-md-4 col-12">
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 20px;">Contact</div>
 
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; font-weight: bold;">Yejin (Anna) Choi</div>
