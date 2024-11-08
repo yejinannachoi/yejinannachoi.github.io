@@ -3,6 +3,8 @@ layout: inner
 title: Contact
 permalink: /contact/
 ---
+
+<div class="col-lg-4 col-md-5 col-12">
 <h1 style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 20px;">Contact</h1>
 
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; font-weight: bold;">Yejin (Anna) Choi</div>
@@ -18,5 +20,6 @@ permalink: /contact/
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;"><strong>Email:</strong> 
   <a style="color: #081b88" href="mailto:yejin.anna.choi@gmail.com"><u>yejin.anna.choi@gmail.com</u></a> 
   <br>
-  <a style="color: #081b88; margin-left: 50px;" href="mailto:anna.choi@emory.edu"><u>anna.choi@emory.edu</u></a>
+  <a style="color: #081b88; margin-left: 55px;" href="mailto:anna.choi@emory.edu"><u>anna.choi@emory.edu</u></a>
+</div>
 </div>
