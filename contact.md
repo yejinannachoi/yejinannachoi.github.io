@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-<div class="col-lg-4 col-md-5 col-12">
+<div style="display: flex; flex-direction: column; align-items: center; max-width: 300px; margin: auto;">
 <h1 style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 20px;">Contact</h1>
 
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; font-weight: bold;">Yejin (Anna) Choi</div>
@@ -17,7 +17,7 @@ permalink: /contact/
 
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Atlanta, Georgia, United States</div>
 
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;"><strong>Email:</strong> 
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; text-align: center;"><strong>Email:</strong> 
   <a style="color: #081b88" href="mailto:yejin.anna.choi@gmail.com"><u>yejin.anna.choi@gmail.com</u></a> 
   <br>
   <a style="color: #081b88; margin-left: 55px;" href="mailto:anna.choi@emory.edu"><u>anna.choi@emory.edu</u></a>
