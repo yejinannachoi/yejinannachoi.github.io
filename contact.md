@@ -3,10 +3,10 @@ layout: inner
 title: Contact
 permalink: /contact/
 ---
-<div class="row">
+<div class="row style="margin-top: 100px;">
         
 <div class="col-lg-4 col-md-8 col-12">
-        <img src="{{ site.baseurl }}/goizueta.png" alt="Goizueta Business School Logo" class="img-fluid" style="max-width: 50%;">
+        <img src="{{ site.baseurl }}/goizueta.png" alt="Goizueta Business School Logo" class="img-fluid" style="max-width: 100%;">
 </div>
     
 <div class="col-lg-6 col-md-4 col-12">
