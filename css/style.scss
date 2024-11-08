@@ -139,10 +139,11 @@ nav ul li {
 
 nav ul .dropdown-menu {
   display: none;      // Hide dropdown by default
-  position: fixed; // Position the dropdown relative to the parent
+  position: absolute; // Position the dropdown relative to the parent
   top: 100%;
   right: 0;
   left: auto;
+  width: auto;
   visibility: hidden;
   opacity: 0;
   transition: opacity 0.2s ease-in-out;  // Smooth transition
