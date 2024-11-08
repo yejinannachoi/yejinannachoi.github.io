@@ -12,7 +12,7 @@ permalink: /contact/
 <div class="col-lg-1 d-none d-lg-block"></div>
 
 <div class="col-lg-6 col-md-4 col-12">
-<div style="font-size:40px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 20px;">Contact</div>
+<div style="font-size:35px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 20px;">Contact</div>
 
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; font-weight: bold;">Yejin (Anna) Choi</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">Emory University</div>
