@@ -109,3 +109,4 @@ nav_item:
       { url: '/portfolio/airline-passenger-satisfaction', text: 'Airline Passenger Satisfaction' }
     ] 
     }
+  - { url: '/contact', text: 'Contact' }
