@@ -27,7 +27,7 @@ permalink: /contact/
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;"><strong> Email:</strong> 
   <a style="color: #081b88" href="mailto:yejin.anna.choi@gmail.com"><u> yejin.anna.choi@gmail.com</u></a> 
   <br>
-  <a style="color: #081b88; margin-left: 50px;" href="mailto:anna.choi@emory.edu"><u>anna.choi@emory.edu</u></a>
+  <a style="color: #081b88; margin-left: 48px;" href="mailto:anna.choi@emory.edu"><u>anna.choi@emory.edu</u></a>
 </div>
 
 <div class="col-lg-1 d-none d-lg-block"></div>
