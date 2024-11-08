@@ -3,9 +3,12 @@ layout: inner
 title: Contact
 permalink: /contact/
 ---
+<div class="container" style="margin-top: 125px;">
 
+<div class="row">
+        
 <div class="col-lg-7 col-md-8 col-12">
-        <img src="goizueta.png" alt="Goizueta Business School" class="img-fluid" style="max-width: 100%;">
+        <img src="{{ site.baseurl }}/goizueta.png" alt="Goizueta Business School Logo" class="img-fluid" style="max-width: 100%;">
 </div>
     
 <div class="col-lg-5 col-md-4 col-12">
@@ -25,5 +28,7 @@ permalink: /contact/
   <a style="color: #081b88" href="mailto:yejin.anna.choi@gmail.com"><u>yejin.anna.choi@gmail.com</u></a> 
   <br>
   <a style="color: #081b88; margin-left: 51px;" href="mailto:anna.choi@emory.edu"><u>anna.choi@emory.edu</u></a>
+</div>
+</div>
 </div>
 </div>
