@@ -141,8 +141,8 @@ nav ul .dropdown-menu {
   display: none;      // Hide dropdown by default
   position: absolute; // Position the dropdown relative to the parent
   top: 100%;
-  right: 180px;
-  left: auto;
+  right: auto;
+  left: 100%;
   width: auto;
   visibility: hidden;
   opacity: 0;
