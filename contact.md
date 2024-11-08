@@ -30,7 +30,7 @@ permalink: /contact/
   <a style="color: #081b88; margin-left: 48px;" href="mailto:anna.choi@emory.edu"><u>anna.choi@emory.edu</u></a>
 </div>
 
-<div class="col-lg-2 d-none d-lg-block"></div>
+<div class="col-lg-1 d-none d-lg-block"></div>
 
 </div>
 </div>
