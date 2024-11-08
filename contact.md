@@ -3,14 +3,14 @@ layout: inner
 title: Contact
 permalink: /contact/
 ---
-<div class="row style="margin-top: 100px;">
+<div class="row" style="margin-top: 100px;">
         
 <div class="col-lg-4 col-md-8 col-12">
         <img src="{{ site.baseurl }}/goizueta.png" alt="Goizueta Business School Logo" class="img-fluid" style="max-width: 100%;">
 </div>
     
 <div class="col-lg-6 col-md-4 col-12">
-<div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 20px;">Contact</div>
+<div style="font-size:30px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 20px;">Contact</div>
 
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; font-weight: bold;">Yejin (Anna) Choi</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">Emory University</div>
