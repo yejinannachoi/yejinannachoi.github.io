@@ -101,7 +101,6 @@ enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
   - { url: '/cv', text: 'CV' }
-  - { url: '/contact', text: 'Contact' }
   - { url: '/portfolio', text: 'Portfolio', sub_items: [
       { url: '/portfolio/local-cafe-sales-data-analysis', text: 'Local Cafe Sales Data Analysis' },
       { url: '/portfolio/houston-food-bank-distribution', text: 'Houston Food Bank Distribution' },
@@ -110,3 +109,4 @@ nav_item:
       { url: '/portfolio/airline-passenger-satisfaction', text: 'Airline Passenger Satisfaction' }
     ] 
     }
+  - { url: '/contact', text: 'Contact' }
