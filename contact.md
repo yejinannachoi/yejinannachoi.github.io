@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-<div style="display: flex; flex-direction: column; align-items: flex-start; max-width: 800px; margin-left: -150px; margin-right: 0;">
+<div style="display: flex; flex-direction: column; align-items: flex-start; max-width: 800px; margin: auto;">
 <h1 style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 20px;">Contact</h1>
 
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; font-weight: bold;">Yejin (Anna) Choi</div>
