@@ -94,12 +94,41 @@ Satisfaction Prediction</div>
 
 <!-- ------------------------------------------- Evaluation ------------------------------------------- -->
 
-<div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 20px;">Evaluation</div>
+<div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Evaluation</div>
 
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Generalization Performance</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The evaluation results for the four predictive models show varying performance across different metrics. Here are the key findings:</div>
 
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;"><strong>The Decision Tree model</strong> was the best in terms of general performance, with good accuracy and high AUC. It is also easy to understand, implement, and computationally efficient.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;"><strong>Logistic Regression</strong> achieved the best precision, which is important in this context as we want to avoid false positives (predicting satisfied passengers when they are actually dissatisfied).</div>
 
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">ROC Curves</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The ROC curves further validate the performance of the models. The Decision Tree classifier performs the best, as it is positioned most to the northwest in the curve and has the largest area under the ROC curve (AUC).</div>
 
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Improvement</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">The predictive model provides actionable insights into passenger satisfaction before passengers begin their journey. Airlines can use the model to identify key passenger satisfaction drivers</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">
+  <ul>
+    <li><code>Customer Type</code> Disloyal customers are twice as likely to be dissatisfied.</li>
+    <ul>
+      <li>Offer loyalty programs that build engagement through points systems, personalized newsletters, and discounts.</li>
+    </ul>
+    <li><code>Travel Type</code> A significant percentage (90%) of personal travelers, particularly those traveling in Economy/Eco+ class, report lower satisfaction levels. These travelers often rate inflight services such as food, drink, and baggage handling poorly.</li>
+      <ul>
+      <li>Offer additional value-added services, such as assisting with luggage handling or providing waste bags, to improve their travel experience</li>
+      </ul>
+  </ul>
+</div>
 
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Benefits</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">
+  The model helps airlines
+</div>
+<ul>
+  <li>Increase brand reputation and popularity</li>
+  <li>Stand out from competitors</li>
+  <li>Retain customers and improve customer loyalty</li>
+</ul>
 
 <!-- ------------------------------------------- Deployment ------------------------------------------- -->
 
