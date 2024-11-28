@@ -9,14 +9,14 @@ permalink: /portfolio/airline-passenger-satisfaction/
 <div style="font-size:30px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 20px;">Airline Passenger
 Satisfaction Prediction</div>
   
-<!-- ------------------------------------------- Section Divider ------------------------------------------- -->
+<!-- ------------------------------------------- Objective and Motivation ------------------------------------------- -->
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 20px;">Objective and Motivation</div>
 
 
 
 
-<!-- ------------------------------------------- Section Divider ------------------------------------------- -->
+<!-- ------------------------------------------- Data Understanding ------------------------------------------- -->
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 20px;">Data Understanding</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; font-weight: bold;">Source: <a href="https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction" style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">Kaggle Public Dataset - Airline Passenger Satisfaction</a></div>
@@ -32,7 +32,7 @@ Satisfaction Prediction</div>
   </ul>
 </div>
 
-<!-- ------------------------------------------- Section Divider ------------------------------------------- -->
+<!-- ------------------------------------------- Data Preparation ------------------------------------------- -->
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 20px;">Data Preparation</div>
 
@@ -65,34 +65,34 @@ Satisfaction Prediction</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;"><strong>Z-Score Scaling:</strong> To prepare the data for machine learning, we applied Z-score scaling to normalize the features. This step was essential, especially for models like kNN that rely on distance metrics. Z-score scaling converts numerical attributes to a standard scale (mean = 0, standard deviation = 1), ensuring that features with different units or scales (e.g., age vs. flight distance) contribute equally to the distance computation.</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;"><strong>Weighted Voting:</strong> We also employed weighted voting in kNN to give more importance to the nearest neighbors, improving the model’s prediction accuracy.</div>
 
-<!-- ------------------------------------------- Section Divider ------------------------------------------- -->
+<!-- ------------------------------------------- Modeling ------------------------------------------- -->
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 20px;">Modeling</div>
 
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">To predict passenger satisfaction, four different classification models were built and tested to identify the best performing one.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">To predict passenger satisfaction, four different classification models were built and tested to identify the best performing one.</div>
 
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Decision Tree</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;"><strong>Advantages:</strong> Easy to understand, implement, and use. It is computationally inexpensive and provides a simple decision boundary.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Easy to understand, implement, and use. It is computationally inexpensive and provides a simple decision boundary.</div>
 
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">k-Nearest Neighbors (kNN)</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;"><strong>Advantages:</strong> Robust to noise and does not make assumptions about the data distribution. It is computationally expensive but highly flexible for complex data.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Robust to noise and does not make assumptions about the data distribution. It is computationally expensive but highly flexible for complex data.</div>
 
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Logistic Regression</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;"><strong>Advantages:</strong> Robust to outliers, fast to train, and has a linear decision boundary.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Robust to outliers, fast to train, and has a linear decision boundary.</div>
 
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Naive Bayes</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;"><strong>Advantages:</strong> Fast and simple, requiring fewer computational resources. It assumes that features are independent, which can be a limitation.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Fast and simple, requiring fewer computational resources. It assumes that features are independent, which can be a limitation.</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Parameter Optimization</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Nested cross-validation with 10 folds and stratified sampling was used for hyperparameter optimization, ensuring that the model's parameters are fine-tuned to achieve the best performance.</div>
 
-<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Performance Metrics:</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The five metrics were used to evaluate and compare the models: Accuracy, Precision, Recall, F1-Score, AUC (Area Under the Curve)</div>
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Performance Metrics</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">The five metrics were used to evaluate and compare the models:</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Accuracy, Precision, Recall, F1-Score, AUC (Area Under the Curve)</div>
 
-<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 20px;">Final Objective:</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Utilize the best performing classification model to predict passenger satisfaction, enabling airlines to implement targeted improvements and achieve business success, such as growth in customer retention and revenue.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 20px;">Utilize the best performing classification model to predict passenger satisfaction, enabling airlines to implement targeted improvements and achieve business success, such as growth in customer retention and revenue.</div>
 
-<!-- ------------------------------------------- Section Divider ------------------------------------------- -->
+<!-- ------------------------------------------- Evaluation ------------------------------------------- -->
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 20px;">Evaluation</div>
 
@@ -101,7 +101,7 @@ Satisfaction Prediction</div>
 
 
 
-<!-- ------------------------------------------- Section Divider ------------------------------------------- -->
+<!-- ------------------------------------------- Deployment ------------------------------------------- -->
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 20px;">Deployment</div>
 
