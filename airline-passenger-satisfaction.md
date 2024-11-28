@@ -109,11 +109,11 @@ Satisfaction Prediction</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">The predictive model provides actionable insights into passenger satisfaction before passengers begin their journey. Airlines can use the model to identify key passenger satisfaction drivers</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">
   <ul>
-    <li><code>Customer Type</code> Disloyal customers are twice as likely to be dissatisfied.</li>
+    <li><code>Customer Type</code> : Disloyal customers are twice as likely to be dissatisfied.</li>
     <ul>
       <li>Offer loyalty programs that build engagement through points systems, personalized newsletters, and discounts.</li>
     </ul>
-    <li><code>Travel Type</code> A significant percentage (90%) of personal travelers, particularly those traveling in Economy/Eco+ class, report lower satisfaction levels. These travelers often rate inflight services such as food, drink, and baggage handling poorly.</li>
+    <li><code>Travel Type</code> : A significant percentage (90%) of personal travelers, particularly those traveling in Economy/Eco+ class, report lower satisfaction levels. These travelers often rate inflight services such as food, drink, and baggage handling poorly.</li>
       <ul>
       <li>Offer additional value-added services, such as assisting with luggage handling or providing waste bags, to improve their travel experience</li>
       </ul>
@@ -122,13 +122,12 @@ Satisfaction Prediction</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Benefits</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">
-  The model helps airlines
+  <ul>
+    <li>Increase brand reputation and popularity</li>
+    <li>Stand out from competitors</li>
+    <li>Retain customers and improve customer loyalty</li>
+  </ul>
 </div>
-<ul>
-  <li>Increase brand reputation and popularity</li>
-  <li>Stand out from competitors</li>
-  <li>Retain customers and improve customer loyalty</li>
-</ul>
 
 <!-- ------------------------------------------- Deployment ------------------------------------------- -->
 
