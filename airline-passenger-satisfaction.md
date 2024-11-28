@@ -63,6 +63,37 @@ Satisfaction Prediction</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 20px;">Evaluation</div>
 
+
+
+
+
+
+
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 20px;">Deployment</div>
 
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Implementation</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The ultimate goal of this project is to find key customer satisfaction metrics that are lacking, particularly for disloyal and personal travelers. The insights derived from the satisfaction predictions can be used to inform strategic initiatives that target these customer segments.</div>
+
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Example Insight</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Disloyal and personal travelers tend to rate seat comfort and food and drink the most poorly.</div>
+
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Strategic Initiatives</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">
+  <ul>
+    <li><strong>Seat Comfort:</strong> Identify ways to improve comfort in the economy cabin without significantly increasing costs or reducing seating capacity. For example, consider partnering with ergonomic furniture makers or offering free or low-cost amenities such as neck pillows.</li>
+    <li><strong>Food and Drink:</strong> Understand which foods and drinks are most sought-after and look for opportunities to expand the offerings. This could involve enhancing the presentation, variety, or frequency of food and beverage services.</li>
+  </ul>
+</div>
+
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Considerations</div>
+
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;"><strong>Ethical Considerations:</strong> Since only basic passenger information is being collected for the predictive model, there are no major ethical concerns.</div>
+
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Risks</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">
+  <strong>Type 1 Error (False Positive):</strong> The risk of predicting that a passenger is dissatisfied when they are actually satisfied, which could lead to unnecessary corrective actions.
+</div>
+
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">
+  <strong>Mitigation:</strong> To reduce this risk, it is recommended to increase the sample size for better statistical significance. Additionally, studying passenger behavior before, during, and after flights will help refine the model and reduce prediction errors.
 </div>
