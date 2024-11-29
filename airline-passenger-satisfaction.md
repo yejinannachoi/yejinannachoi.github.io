@@ -16,7 +16,7 @@ Satisfaction Prediction</div>
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Objective</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The objective of this project is to build predictive models to determine whether an airline passenger will be satisfied or dissatisfied with their flight experience. By analyzing customer data before boarding and utilizing post-experience surveys, airlines can gain insights into the factors influencing satisfaction levels and implement strategies to enhance passenger experiences.</div>
 
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;"><strong>Identify Customer Segments in Need of Work</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;"><strong>Identify Customer Segments in Need of Work</strong></div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Focus on customer segments that are most likely to be dissatisfied, such as disloyal customers and personal travelers, and offer tailored solutions.</div>
 
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;"><strong>Turn Findings into Strategic Initiatives</strong></div>
