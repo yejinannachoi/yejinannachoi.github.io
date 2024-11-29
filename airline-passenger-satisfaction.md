@@ -10,12 +10,11 @@ permalink: /portfolio/airline-passenger-satisfaction/
 Satisfaction Prediction</div>
 <div class="row" style="margin-bottom: 20px;">
 <div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/img.jpg" alt="Aircraft" class="img-fluid" style="max-width: 100%; width: 600px;">
+  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/img.jpg" alt="Aircraft" class="img-fluid" style="max-width: 100%; width: 700px;">
 </div>
 </div>
   
 <!-- ------------------------------------------- Business Understanding ------------------------------------------- -->
-<hr>
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Business Understanding</div>
 
@@ -43,7 +42,7 @@ Satisfaction Prediction</div>
   <img src="{{ site.baseurl }}/airline-passenger-satisfaction/kaggle.png" alt="Kaggle" class="img-fluid" style="max-width: 100%; width: 800px;">
 </div>
 </div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">Source: <strong><a href="https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction" style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">Kaggle Public Dataset - Airline Passenger Satisfaction</a></strong></div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;"><strong>Source: <a href="https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction" style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">Kaggle Public Dataset - Airline Passenger Satisfaction</a></strong></div>
 
 <div style="margin-top: 10px;"></div>
 
@@ -79,10 +78,10 @@ Satisfaction Prediction</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Class and Satisfaction</div>
 <div class="row" style="margin-bottom: 10px;">
-  <div class="col-lg-4 col-md-5 col-12">
+  <div class="col-md-6">
     <img src="{{ site.baseurl }}/airline-passenger-satisfaction/class.png" alt="Class" class="img-fluid" style="max-width: 100%; width: 600px;">
   </div>
-  <div class="col-lg-4 col-md-5 col-12">
+  <div class="col-md-6">
     <img src="{{ site.baseurl }}/airline-passenger-satisfaction/class-distribution.png" alt="Class Distribution" class="img-fluid" style="max-width: 100%; width: 400px;">
   </div>
 </div>
