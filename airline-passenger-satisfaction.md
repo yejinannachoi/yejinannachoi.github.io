@@ -79,10 +79,10 @@ Satisfaction Prediction</div>
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Class and Satisfaction</div>
 <div class="row" style="margin-bottom: 10px;">
   <div class="col-md-6">
-    <img src="{{ site.baseurl }}/airline-passenger-satisfaction/class.png" alt="Class" class="img-fluid" style="max-width: 100%; width: 600px;">
+    <img src="{{ site.baseurl }}/airline-passenger-satisfaction/class.png" alt="Class" class="img-fluid" style="max-width: 100%; width: 800px;">
   </div>
   <div class="col-md-6">
-    <img src="{{ site.baseurl }}/airline-passenger-satisfaction/class-distribution.png" alt="Class Distribution" class="img-fluid" style="max-width: 100%; width: 400px;">
+    <img src="{{ site.baseurl }}/airline-passenger-satisfaction/class-distribution.png" alt="Class Distribution" class="img-fluid" style="max-width: 100%; width: 200px;">
   </div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Most passengers fly in Business or Economy Class.</div>
