@@ -10,7 +10,7 @@ permalink: /portfolio/airline-passenger-satisfaction/
 Satisfaction Prediction</div>
 <div class="row" style="margin-bottom: 20px;">
 <div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/img.png" alt="Aircraft" class="img-fluid" style="max-width: 100%; width: 800px;">
+  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/img.jpg" alt="Aircraft" class="img-fluid" style="max-width: 100%; width: 800px;">
 </div>
 </div>
   
@@ -41,7 +41,7 @@ Satisfaction Prediction</div>
   <img src="{{ site.baseurl }}/airline-passenger-satisfaction/kaggle.png" alt="Kaggle" class="img-fluid" style="max-width: 100%; width: 800px;">
 </div>
 </div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; font-weight: bold;">Source: <a href="https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction" style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">Kaggle Public Dataset - Airline Passenger Satisfaction</a></div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">Source: <strong><a href="https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction" style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">Kaggle Public Dataset - Airline Passenger Satisfaction</a></strong></div>
 
 <div style="margin-top: 10px;"></div>
 
@@ -82,7 +82,7 @@ Satisfaction Prediction</div>
 </div>
 <div class="row" style="margin-bottom: 10px;">
 <div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/class-distribution.png" alt="Class Distribution" class="img-fluid" style="max-width: 100%; width: 300px;">
+  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/class-distribution.png" alt="Class Distribution" class="img-fluid" style="max-width: 100%; width: 400px;">
 </div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Most passengers fly in Business or Economy Class.</div>
@@ -97,7 +97,7 @@ Satisfaction Prediction</div>
 </div>
 <div class="row" style="margin-bottom: 10px;">
 <div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/type-of-travel-distribution.png" alt="Type of Travel Distribution" class="img-fluid" style="max-width: 100%; width: 300px;">
+  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/type-of-travel-distribution.png" alt="Type of Travel Distribution" class="img-fluid" style="max-width: 100%; width: 500px;">
 </div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">69% of customers travel for business purposes.</div>
@@ -112,7 +112,7 @@ Satisfaction Prediction</div>
 </div>
 <div class="row" style="margin-bottom: 10px;">
 <div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/customer-type-distribution.png" alt="Customer Type Distribution" class="img-fluid" style="max-width: 100%; width: 300px;">
+  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/customer-type-distribution.png" alt="Customer Type Distribution" class="img-fluid" style="max-width: 100%; width: 400px;">
 </div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">A majority of customers (81%) are loyal.</div>
