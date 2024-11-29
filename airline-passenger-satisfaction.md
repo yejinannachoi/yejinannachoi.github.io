@@ -9,12 +9,22 @@ permalink: /portfolio/airline-passenger-satisfaction/
 <div style="font-size:30px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 20px;">Airline Passenger
 Satisfaction Prediction</div>
   
-<!-- ------------------------------------------- Objective and Motivation ------------------------------------------- -->
+<!-- ------------------------------------------- Business Understanding ------------------------------------------- -->
 
-<div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 20px;">Objective and Motivation</div>
+<div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Business Understanding</div>
 
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Objective:</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The objective of this project is to build predictive models to determine whether an airline passenger will be satisfied or dissatisfied with their flight experience. By analyzing customer data before boarding and utilizing post-experience surveys, airlines can gain insights into the factors influencing satisfaction levels and implement strategies to enhance passenger experiences.</div>
 
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;"><strong>Identify Customer Segments in Need of Work:</strong> Focus on customer segments that are most likely to be dissatisfied, such as disloyal customers and personal travelers, and offer tailored solutions.</div>
 
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;"><strong>Turn Findings into Strategic Initiatives</strong> Leverage the predictive model findings to develop strategic initiatives focused on the key features that drive passenger satisfaction, helping airlines prioritize areas of improvement and resource allocation.</div>
+
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Motivation:</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Airline travel is consistently rated poorly on the American Consumer Satisfaction Index (ACSI). With 60% of airline revenues coming from passengers and the remainder from travel partners, improving customer satisfaction is essential for business success. Airlines must better understand which passengers are likely to be dissatisfied and how to enhance their experiences to improve loyalty and retain passengers.</div>
+
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Case Study - United Airlines vs. American Airlines:</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The importance of focusing on the right factors is demonstrated by a case study involving United and American Airlines. Despite their efforts to improve coffee quality or offer luggage delivery services, both airlines remain at the bottom of the ACSI rankings. This highlights the need for data-driven insights to identify the true drivers of dissatisfaction, which this project aims to address.</div>
 
 <!-- ------------------------------------------- Data Understanding ------------------------------------------- -->
 
@@ -31,6 +41,11 @@ Satisfaction Prediction</div>
     <li><strong>Target Variable:</strong> <code>satisfaction</code> (1: satisfied, 0: dissatisfied or neutral).</li>
   </ul>
 </div>
+
+<!-- ------------------------------------------- Exploratory Data Analysis ------------------------------------------- -->
+
+<div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Exploratory Data Analysis</div>
+
 
 <!-- ------------------------------------------- Data Preparation ------------------------------------------- -->
 
