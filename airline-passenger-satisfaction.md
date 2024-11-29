@@ -51,7 +51,7 @@ Satisfaction Prediction</div>
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Target Variable Distribution</div>
 <div class="row" style="margin-bottom: 10px;">
 <div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/target-variable-distribution.png" alt="Target Variable Distribution" class="img-fluid" style="max-width: 100%; width: 500px;">
+  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/target-variable-distribution.png" alt="Target Variable Distribution" class="img-fluid" style="max-width: 100%; width: 400px;">
 </div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The distribution of the target variable is roughly the same.</div>
@@ -59,7 +59,7 @@ Satisfaction Prediction</div>
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Correlation Matrix</div>
 <div class="row" style="margin-bottom: 10px;">
 <div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/correlation-matrix.png" alt="Correlation Matrix" class="img-fluid" style="max-width: 100%; width: 700px;">
+  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/correlation-matrix.png" alt="Correlation Matrix" class="img-fluid" style="max-width: 100%; width: 800px;">
 </div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The top 3 correlated attributes with <code>satisfaction</code> are <code>Online boarding</code> (0.504), <code>Type of Travel</code> (0.499), <code>Inflight entertainment</code> (0.398)</div>
@@ -93,16 +93,17 @@ Satisfaction Prediction</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">A majority of customers (81%) are loyal.</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Disloyal customers are less likely to be satisfied.</div>
 
-<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Gender, Age and Satisfaction</div>
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Gender and Satisfaction</div>
 <div class="row" style="margin-bottom: 10px;">
 <div>
   <img src="{{ site.baseurl }}/airline-passenger-satisfaction/gender.png" alt="Gender" class="img-fluid" style="max-width: 100%; width: 600px;">
 </div>
 </div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">There is minimal difference in satisfaction between male and female customers.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">There is minimal difference in satisfaction between male and female customers.</div>
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Age and Satisfaction</div>
 <div class="row" style="margin-bottom: 10px;">
 <div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/age.png" alt="Age" class="img-fluid" style="max-width: 100%; width: 600px;">
+  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/age.png" alt="Age" class="img-fluid" style="max-width: 100%; width: 700px;">
 </div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Customers aged 40-60 report higher satisfaction compared to those aged 20-38.</div>
@@ -110,7 +111,7 @@ Satisfaction Prediction</div>
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Flight Distance and Satisfaction</div>
 <div class="row" style="margin-bottom: 10px;">
 <div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/flight-distance.png" alt="Flight Distance" class="img-fluid" style="max-width: 100%; width: 600px;">
+  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/flight-distance.png" alt="Flight Distance" class="img-fluid" style="max-width: 100%; width: 700px;">
 </div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">Passengers flying longer distances tend to have lower satisfaction levels.</div>
@@ -164,7 +165,7 @@ Satisfaction Prediction</div>
 
 <div class="row" style="margin-bottom: 10px;">
 <div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/model-results.png" alt="Model Results" class="img-fluid" style="max-width: 100%; width: 700px;">
+  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/model-results.png" alt="Model Results" class="img-fluid" style="max-width: 100%; width: 800px;">
 </div>
 </div>
 
