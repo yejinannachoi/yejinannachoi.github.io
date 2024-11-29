@@ -10,18 +10,19 @@ permalink: /portfolio/airline-passenger-satisfaction/
 Satisfaction Prediction</div>
 <div class="row" style="margin-bottom: 20px;">
 <div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/img.jpg" alt="Aircraft" class="img-fluid" style="max-width: 100%; width: 800px;">
+  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/img.jpg" alt="Aircraft" class="img-fluid" style="max-width: 100%; width: 600px;">
 </div>
 </div>
   
 <!-- ------------------------------------------- Business Understanding ------------------------------------------- -->
+<hr>
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Business Understanding</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Objective</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The objective of this project is to build predictive models to determine whether an airline passenger will be satisfied or dissatisfied with their flight experience. By analyzing customer data before boarding and utilizing post-experience surveys, airlines can gain insights into the factors influencing satisfaction levels and implement strategies to enhance passenger experiences.</div>
 
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;"><strong>Identify Customer Segments in Need of Work</strong></div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;"><strong>Identify Target Customer Segments</strong></div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Focus on customer segments that are most likely to be dissatisfied, such as disloyal customers and personal travelers, and offer tailored solutions.</div>
 
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;"><strong>Turn Findings into Strategic Initiatives</strong></div>
@@ -34,6 +35,7 @@ Satisfaction Prediction</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">The importance of focusing on the right factors is demonstrated by a case study involving United and American Airlines. Despite their efforts to improve coffee quality or offer luggage delivery services, both airlines remain at the bottom of the ACSI rankings. This highlights the need for data-driven insights to identify the true drivers of dissatisfaction, which this project aims to address.</div>
 
 <!-- ------------------------------------------- Data Understanding ------------------------------------------- -->
+<hr>
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Data Understanding</div>
 <div class="row" style="margin-bottom: 10px;">
@@ -55,6 +57,7 @@ Satisfaction Prediction</div>
 </div>
 
 <!-- ------------------------------------------- Exploratory Data Analysis ------------------------------------------- -->
+<hr>
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Exploratory Data Analysis</div>
 
@@ -76,14 +79,12 @@ Satisfaction Prediction</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Class and Satisfaction</div>
 <div class="row" style="margin-bottom: 10px;">
-<div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/class.png" alt="Class" class="img-fluid" style="max-width: 100%; width: 600px;">
-</div>
-</div>
-<div class="row" style="margin-bottom: 10px;">
-<div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/class-distribution.png" alt="Class Distribution" class="img-fluid" style="max-width: 100%; width: 400px;">
-</div>
+  <div class="col-lg-4 col-md-5 col-12">
+    <img src="{{ site.baseurl }}/airline-passenger-satisfaction/class.png" alt="Class" class="img-fluid" style="max-width: 100%; width: 600px;">
+  </div>
+  <div class="col-lg-4 col-md-5 col-12">
+    <img src="{{ site.baseurl }}/airline-passenger-satisfaction/class-distribution.png" alt="Class Distribution" class="img-fluid" style="max-width: 100%; width: 400px;">
+  </div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Most passengers fly in Business or Economy Class.</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">70% of Business class customers are satisfied.</div>
@@ -141,10 +142,8 @@ Satisfaction Prediction</div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">Passengers flying longer distances tend to have lower satisfaction levels.</div>
 
-
-
-
 <!-- ------------------------------------------- Data Preparation ------------------------------------------- -->
+<hr>
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Data Preparation</div>
 
@@ -183,6 +182,7 @@ Satisfaction Prediction</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;"><strong>Weighted Voting:</strong> We also employed weighted voting in kNN to give more importance to the nearest neighbors, improving the model’s prediction accuracy.</div>
 
 <!-- ------------------------------------------- Modeling ------------------------------------------- -->
+<hr>
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Modeling</div>
 
@@ -216,6 +216,7 @@ Satisfaction Prediction</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 40px;">Utilize the best performing classification model to predict passenger satisfaction, enabling airlines to implement targeted improvements and achieve business success, such as growth in customer retention and revenue.</div>
 
 <!-- ------------------------------------------- Evaluation ------------------------------------------- -->
+<hr>
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Evaluation</div>
 
@@ -264,6 +265,7 @@ Satisfaction Prediction</div>
 </div>
 
 <!-- ------------------------------------------- Deployment ------------------------------------------- -->
+<hr>
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Deployment</div>
 
