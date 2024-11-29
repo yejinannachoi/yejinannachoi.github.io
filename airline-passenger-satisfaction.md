@@ -49,6 +49,9 @@ Satisfaction Prediction</div>
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Exploratory Data Analysis</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Target Variable Distribution</div>
+<div>
+  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/target-variable-distribution.png" alt="Target Variable Distribution" class="img-fluid" style="max-width: 100%;">
+</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The distribution of the target variable is roughly the same.</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Correlation Matrix</div>
