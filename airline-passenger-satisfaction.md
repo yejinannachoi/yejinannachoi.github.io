@@ -51,7 +51,7 @@ Satisfaction Prediction</div>
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Target Variable Distribution</div>
 <div class="row" style="margin-bottom: 10px;">
 <div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/target-variable-distribution.png" alt="Target Variable Distribution" class="img-fluid" style="max-width: 100%; width: 300px;">
+  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/target-variable-distribution.png" alt="Target Variable Distribution" class="img-fluid" style="max-width: 100%; width: 500px;">
 </div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The distribution of the target variable is roughly the same.</div>
@@ -67,7 +67,7 @@ Satisfaction Prediction</div>
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Class and Satisfaction</div>
 <div class="row" style="margin-bottom: 10px;">
 <div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/class.png" alt="Class" class="img-fluid" style="max-width: 100%; width: 300px;">
+  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/class.png" alt="Class" class="img-fluid" style="max-width: 100%; width: 600px;">
 </div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Most passengers fly in Business or Economy Class.</div>
@@ -77,7 +77,7 @@ Satisfaction Prediction</div>
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Type of Travel and Satisfaction</div>
 <div class="row" style="margin-bottom: 10px;">
 <div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/type-of-travel.png" alt="Type of Travel" class="img-fluid" style="max-width: 100%; width: 300px;">
+  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/type-of-travel.png" alt="Type of Travel" class="img-fluid" style="max-width: 100%; width: 600px;">
 </div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">69% of customers travel for business purposes.</div>
@@ -87,7 +87,7 @@ Satisfaction Prediction</div>
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Customer Type and Satisfaction</div>
 <div class="row" style="margin-bottom: 10px;">
 <div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/customer-type.png" alt="Customer Type" class="img-fluid" style="max-width: 100%; width: 300px;">
+  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/customer-type.png" alt="Customer Type" class="img-fluid" style="max-width: 100%; width: 600px;">
 </div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">A majority of customers (81%) are loyal.</div>
@@ -96,13 +96,13 @@ Satisfaction Prediction</div>
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Gender, Age and Satisfaction</div>
 <div class="row" style="margin-bottom: 10px;">
 <div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/gender.png" alt="Gender" class="img-fluid" style="max-width: 100%; width: 300px;">
+  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/gender.png" alt="Gender" class="img-fluid" style="max-width: 100%; width: 600px;">
 </div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">There is minimal difference in satisfaction between male and female customers.</div>
 <div class="row" style="margin-bottom: 10px;">
 <div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/age.png" alt="Age" class="img-fluid" style="max-width: 100%; width: 300px;">
+  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/age.png" alt="Age" class="img-fluid" style="max-width: 100%; width: 600px;">
 </div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Customers aged 40-60 report higher satisfaction compared to those aged 20-38.</div>
@@ -110,7 +110,7 @@ Satisfaction Prediction</div>
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Flight Distance and Satisfaction</div>
 <div class="row" style="margin-bottom: 10px;">
 <div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/flight-distance.png" alt="Flight Distance" class="img-fluid" style="max-width: 100%; width: 300px;">
+  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/flight-distance.png" alt="Flight Distance" class="img-fluid" style="max-width: 100%; width: 600px;">
 </div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">Passengers flying longer distances tend to have lower satisfaction levels.</div>
@@ -125,7 +125,7 @@ Satisfaction Prediction</div>
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold;">Missing Values</div>
 <div class="row" style="margin-bottom: 10px;">
 <div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/arrival-delay-departure-delay-correlation.png" alt="Delay Variables Correlation" class="img-fluid" style="max-width: 100%; width: 300px;">
+  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/arrival-delay-departure-delay-correlation.png" alt="Delay Variables Correlation" class="img-fluid" style="max-width: 100%; width: 600px;">
 </div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The dataset contains 393 missing values out of 129,880 for <code>Arrival Delay in Minutes</code>, accounting for 0.3% of the data. To handle these missing values, we replaced the missing values with the mean of <code>Departure Delay in Minutes</code>, as it showed the highest correlation with <code>Arrival Delay in Minutes</code> (0.96). This approach ensures the imputation of missing values is based on a relevant and highly correlated feature.</div>
@@ -164,7 +164,7 @@ Satisfaction Prediction</div>
 
 <div class="row" style="margin-bottom: 10px;">
 <div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/model-results.png" alt="Model Results" class="img-fluid" style="max-width: 100%; width: 300px;">
+  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/model-results.png" alt="Model Results" class="img-fluid" style="max-width: 100%; width: 700px;">
 </div>
 </div>
 
@@ -198,7 +198,7 @@ Satisfaction Prediction</div>
 
 <div class="row" style="margin-bottom: 10px;">
 <div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/performance-matrix.png" alt="Performance Matrix" class="img-fluid" style="max-width: 100%; width: 300px;">
+  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/performance-matrix.png" alt="Performance Matrix" class="img-fluid" style="max-width: 100%; width: 700px;">
 </div>
 </div>
 
@@ -208,7 +208,7 @@ Satisfaction Prediction</div>
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">ROC Curves</div>
 <div class="row" style="margin-bottom: 10px;">
 <div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/roc-curves.png" alt="ROC Curves" class="img-fluid" style="max-width: 100%; width: 300px;">
+  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/roc-curves.png" alt="ROC Curves" class="img-fluid" style="max-width: 100%; width: 700px;">
 </div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The ROC curves further validate the performance of the models. The Decision Tree classifier performs the best, as it is positioned most to the northwest in the curve and has the largest area under the ROC curve (AUC).</div>
