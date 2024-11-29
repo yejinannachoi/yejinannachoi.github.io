@@ -25,7 +25,7 @@ Satisfaction Prediction</div>
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Motivation</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Airline travel is consistently rated poorly on the American Consumer Satisfaction Index (ACSI). With 60% of airline revenues coming from passengers and the remainder from travel partners, improving customer satisfaction is essential for business success. Airlines must better understand which passengers are likely to be dissatisfied and how to enhance their experiences to improve loyalty and retain passengers.</div>
 
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Case Study - United Airlines vs. American Airlines:</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Case Study - United Airlines vs. American Airlines</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">The importance of focusing on the right factors is demonstrated by a case study involving United and American Airlines. Despite their efforts to improve coffee quality or offer luggage delivery services, both airlines remain at the bottom of the ACSI rankings. This highlights the need for data-driven insights to identify the true drivers of dissatisfaction, which this project aims to address.</div>
 
 <!-- ------------------------------------------- Data Understanding ------------------------------------------- -->
@@ -48,13 +48,42 @@ Satisfaction Prediction</div>
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Exploratory Data Analysis</div>
 
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Target Variable Distribution</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">The distribution of the target variable is roughly the same.</div>
+
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Correlation Matrix</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">The top 3 correlated attributes with <code>satisfaction</code> are <code>Online boarding</code> (0.504), <code>Type of Travel</code> (0.499), <code>Inflight entertainment</code> (0.398)</div>
+
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Class and Satisfaction</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Most passengers fly in Business or Economy Class.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">70% of Business class customers are satisfied.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">19% of Economy class customers and 22% of Eco Plus customers are satisfied. This suggests that the experience for Economy and Eco Plus customers needs improvement.</div>
+
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Type of Travel and Satisfaction</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">69% of customers travel for business purposes.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">60% of business travelers are satisfied.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Only 10% of customers traveling for personal reasons are satisfied.</div>
+
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Customer Type and Satisfaction</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">A majority of customers (81%) are loyal.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Disloyal customers are less likely to be satisfied.</div>
+
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Gender, Age and Satisfaction</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">There is minimal difference in satisfaction between male and female customers.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Customers aged 40-60 report higher satisfaction compared to those aged 20-38.</div>
+
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Flight Distance and Satisfaction</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Passengers flying longer distances tend to have lower satisfaction levels.</div>
+
+
+
 
 <!-- ------------------------------------------- Data Preparation ------------------------------------------- -->
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Data Preparation</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold;">Missing Values</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The dataset contains 393 missing values out of 129,880 for <code>Arrival Delay</code>, accounting for 0.3% of the data. To handle these missing values, we replaced the missing values with the mean of <code>Departure Delay</code>, as it showed the highest correlation with <code>Arrival Delay</code> (0.96). This approach ensures the imputation of missing values is based on a relevant and highly correlated feature.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The dataset contains 393 missing values out of 129,880 for <code>Arrival Delay in Minutes</code>, accounting for 0.3% of the data. To handle these missing values, we replaced the missing values with the mean of <code>Departure Delay in Minutes</code>, as it showed the highest correlation with <code>Arrival Delay in Minutes</code> (0.96). This approach ensures the imputation of missing values is based on a relevant and highly correlated feature.</div>
 
 <div style="margin-top: 10px;"></div>
 
@@ -86,7 +115,7 @@ Satisfaction Prediction</div>
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Modeling</div>
 
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">To predict passenger satisfaction, four different classification models were built and tested to identify the best performing one.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">To predict passenger satisfaction, four different classification models were built and tested to identify the best performing one:</div>
 
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Decision Tree</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Easy to understand, implement, and use. It is computationally inexpensive and provides a simple decision boundary.</div>
@@ -123,14 +152,14 @@ Satisfaction Prediction</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The ROC curves further validate the performance of the models. The Decision Tree classifier performs the best, as it is positioned most to the northwest in the curve and has the largest area under the ROC curve (AUC).</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Improvement</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">The predictive model provides actionable insights into passenger satisfaction before passengers begin their journey. Airlines can use the model to identify key passenger satisfaction drivers</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">The predictive model provides actionable insights into passenger satisfaction before passengers begin their journey. Airlines can use the model to identify key passenger satisfaction drivers.</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">
   <ul>
     <li><code>Customer Type</code> : Disloyal customers are twice as likely to be dissatisfied.</li>
     <ul>
       <li>Offer loyalty programs that build engagement through points systems, personalized newsletters, and discounts.</li>
     </ul>
-    <li><code>Travel Type</code> : A significant percentage (90%) of personal travelers, particularly those traveling in Economy/Eco+ class, report lower satisfaction levels. These travelers often rate inflight services such as food, drink, and baggage handling poorly.</li>
+    <li><code>Type of Travel</code> : A significant percentage (90%) of personal travelers, particularly those traveling in Economy or Eco Plus class, report lower satisfaction levels. These travelers often rate inflight services such as food, drink, and baggage handling poorly.</li>
       <ul>
       <li>Offer additional value-added services, such as assisting with luggage handling or providing waste bags, to improve their travel experience</li>
       </ul>
