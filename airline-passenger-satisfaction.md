@@ -57,7 +57,7 @@ Satisfaction Prediction</div>
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Class and Satisfaction</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Most passengers fly in Business or Economy Class.</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">70% of Business class customers are satisfied.</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">19% of Economy class customers and 22% of Eco Plus customers are satisfied. This suggests that the experience for Economy and Eco Plus customers needs improvement.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">19% of Economy class customers and 22% of Economy Plus customers are satisfied. This suggests that the experience for Economy and Economy Plus customers needs improvement.</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Type of Travel and Satisfaction</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">69% of customers travel for business purposes.</div>
@@ -159,7 +159,7 @@ Satisfaction Prediction</div>
     <ul>
       <li>Offer loyalty programs that build engagement through points systems, personalized newsletters, and discounts.</li>
     </ul>
-    <li><code>Type of Travel</code> : A significant percentage (90%) of personal travelers, particularly those traveling in Economy or Eco Plus class, report lower satisfaction levels. These travelers often rate inflight services such as food, drink, and baggage handling poorly.</li>
+    <li><code>Type of Travel</code> : A significant percentage (90%) of personal travelers, particularly those traveling in Economy or Economy Plus class, report lower satisfaction levels. These travelers often rate inflight services such as food, drink, and baggage handling poorly.</li>
       <ul>
       <li>Offer additional value-added services, such as assisting with luggage handling or providing waste bags, to improve their travel experience</li>
       </ul>
