@@ -49,31 +49,31 @@ Satisfaction Prediction</div>
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Exploratory Data Analysis</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Target Variable Distribution</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">The distribution of the target variable is roughly the same.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The distribution of the target variable is roughly the same.</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Correlation Matrix</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">The top 3 correlated attributes with <code>satisfaction</code> are <code>Online boarding</code> (0.504), <code>Type of Travel</code> (0.499), <code>Inflight entertainment</code> (0.398)</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The top 3 correlated attributes with <code>satisfaction</code> are <code>Online boarding</code> (0.504), <code>Type of Travel</code> (0.499), <code>Inflight entertainment</code> (0.398)</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Class and Satisfaction</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Most passengers fly in Business or Economy Class.</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">70% of Business class customers are satisfied.</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">19% of Economy class customers and 22% of Eco Plus customers are satisfied. This suggests that the experience for Economy and Eco Plus customers needs improvement.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">19% of Economy class customers and 22% of Eco Plus customers are satisfied. This suggests that the experience for Economy and Eco Plus customers needs improvement.</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Type of Travel and Satisfaction</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">69% of customers travel for business purposes.</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">60% of business travelers are satisfied.</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Only 10% of customers traveling for personal reasons are satisfied.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Only 10% of customers traveling for personal reasons are satisfied.</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Customer Type and Satisfaction</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">A majority of customers (81%) are loyal.</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Disloyal customers are less likely to be satisfied.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Disloyal customers are less likely to be satisfied.</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Gender, Age and Satisfaction</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">There is minimal difference in satisfaction between male and female customers.</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Customers aged 40-60 report higher satisfaction compared to those aged 20-38.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Customers aged 40-60 report higher satisfaction compared to those aged 20-38.</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Flight Distance and Satisfaction</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Passengers flying longer distances tend to have lower satisfaction levels.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">Passengers flying longer distances tend to have lower satisfaction levels.</div>
 
 
 
