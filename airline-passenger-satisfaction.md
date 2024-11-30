@@ -174,9 +174,8 @@ permalink: /portfolio/airline-passenger-satisfaction/
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The dataset contains 393 missing values out of 129,880 for Arrival Delay in Minutes, accounting for 0.3% of the data. To handle these missing values, we replaced the missing values with the mean of Departure Delay in Minutes, as it showed the highest correlation with Arrival Delay in Minutes (0.96). This approach ensures the imputation of missing values is based on a relevant and highly correlated feature.</div>
 
-<div style="margin-top: 10px;"></div>
 
-<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-top: 20px;">Data Leakage</div>
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Data Leakage</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">To avoid data leakage, we excluded variables that would not be predictive at the time of the prediction. These variables include:</div>
 
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">
