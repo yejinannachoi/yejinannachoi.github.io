@@ -6,7 +6,7 @@ permalink: /portfolio/airline-passenger-satisfaction/
 <div class="row" style="margin-top: 50px;">
 
 <div>
-<div style="font-size:30px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Airline Passenger
+<div style="font-size:40px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Airline Passenger
 Satisfaction Prediction</div>
   
 <div class="row" style="margin-bottom: 20px;">
@@ -71,14 +71,6 @@ Satisfaction Prediction</div>
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Exploratory Data Analysis</div>
 
-<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Target Variable Distribution</div>
-<div class="row" style="margin-bottom: 10px;">
-<div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/target-variable-distribution.png" alt="Target Variable Distribution" class="img-fluid" style="max-width: 100%; width: 300px;">
-</div>
-</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The distribution of the target variable is roughly the same.</div>
-
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Correlation Matrix</div>
 <div class="row" style="margin-bottom: 10px;">
 <div>
@@ -86,6 +78,14 @@ Satisfaction Prediction</div>
 </div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The top 3 correlated attributes with <code>satisfaction</code> are <code>Online boarding</code> (0.504), <code>Type of Travel</code> (0.499), <code>Inflight entertainment</code> (0.398)</div>
+
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Target Variable Distribution</div>
+<div class="row" style="margin-bottom: 10px;">
+<div>
+  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/target-variable-distribution.png" alt="Target Variable Distribution" class="img-fluid" style="max-width: 100%; width: 300px;">
+</div>
+</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The distribution of the target variable is roughly the same.</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Class and Satisfaction</div>
 <div class="row" style="margin-bottom: 10px;">
