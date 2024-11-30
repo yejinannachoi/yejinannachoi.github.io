@@ -58,49 +58,25 @@ permalink: /portfolio/airline-passenger-satisfaction/
 <!-- ------------------------------------------- Data Understanding ------------------------------------------- -->
 <hr>
 
-<div class="container" style="margin-top: 50px;">
-
-  <div class="row">
-    <div class="col-12">
-      <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">
-        Data Understanding
-      </div>
-    </div>
-  </div>
-
+<div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Data Understanding</div>
+<div class="container">
   <div class="row" style="margin-bottom: 10px;">
     <div class="col-12">
       <img src="{{ site.baseurl }}/airline-passenger-satisfaction/kaggle.png" alt="Kaggle" class="img-fluid" style="max-width: 100%; width: 800px;">
     </div>
   </div>
+</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;"><strong>Source: <a href="https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction" style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">Kaggle Public Dataset - Airline Passenger Satisfaction</a></strong></div>
 
-  <div class="row">
-    <div class="col-12">
-      <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">
-        <strong>Source: 
-          <a href="https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction" style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">
-            Kaggle Public Dataset - Airline Passenger Satisfaction
-          </a>
-        </strong>
-      </div>
-    </div>
-  </div>
+<div style="margin-top: 10px;"></div>
 
-  <div class="row">
-    <div class="col-12">
-      <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold;">
-        Summary
-      </div>
-      <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">
-        <ul>
-          <li>The train set contains 103,904 rows and 23 columns, and the test set contains 25,976 rows and 23 columns. The two datasets were joined and sampled for analysis.</li>
-          <li>The datasets include both categorical and numerical data such as passenger demographics, inflight and external services satisfaction levels, flight information, and satisfaction status.</li>
-          <li><strong>Target Variable:</strong> <code>satisfaction</code> (1: satisfied, 0: dissatisfied or neutral).</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold;">Summary</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">
+  <ul>
+    <li>The train set contains 103,904 rows and 23 columns, and the test set contains 25,976 rows and 23 columns. The two datasets were joined and sampled for analysis.</li>
+    <li>The datasets include both categorical and numerical data such as passenger demographics, inflight and external services satisfaction levels, flight information, and satisfaction status.</li>
+    <li><strong>Target Variable:</strong> <code>satisfaction</code> (1: satisfied, 0: dissatisfied or neutral).</li>
+  </ul>
 </div>
 
 <!-- ------------------------------------------- Exploratory Data Analysis ------------------------------------------- -->
