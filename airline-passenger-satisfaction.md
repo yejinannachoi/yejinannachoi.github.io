@@ -29,12 +29,13 @@ permalink: /portfolio/airline-passenger-satisfaction/
   </div>
 
   <!-- Image Section -->
-  <div class="row" style="margin-bottom: 40px;">
+  <div class="row" style="margin-bottom: 10px;">
     <div class="col-12">
       <img src="{{ site.baseurl }}/airline-passenger-satisfaction/img.jpg" alt="Aircraft" class="img-fluid" style="max-width: 100%; width: 700px; display: block;">
     </div>
   </div>
 </div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">Photo by <a href="https://pixabay.com/photos/aircraft-cabin-airplane-cabin-5535467" style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">juno1412 on Pixabay</a></div>
   
 <!-- ------------------------------------------- Business Understanding ------------------------------------------- -->
 
