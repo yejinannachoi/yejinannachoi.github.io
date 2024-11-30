@@ -37,7 +37,7 @@ permalink: /portfolio/houston-food-bank-distribution/
   
 <!-- ------------------------------------------- Deliverables ------------------------------------------- -->
 
-<div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">In a team of five members, I created and designed presentation slides, wrote VBA code, created macros, and developed the user interface (UI) for the Excel workbook. Other team members collected and preprocessed data, built models, and filmed the demonstration video.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">In a team of five members, I created and designed presentation slides, wrote VBA code, created macros, and developed the user interface (UI) for the Excel workbook. Other team members collected and preprocessed data, built models, and filmed the demonstration video.</div>
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Presentation Slides</div>
 
@@ -45,7 +45,7 @@ permalink: /portfolio/houston-food-bank-distribution/
 <div style="margin-bottom: 20px;">
   <iframe 
     width="700" 
-    height="450" 
+    height="400" 
     src="https://www.youtube.com/embed/lgAWVUawKkE" 
     title="YouTube video player" 
     frameborder="0" 
