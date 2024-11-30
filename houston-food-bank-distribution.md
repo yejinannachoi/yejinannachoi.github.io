@@ -34,13 +34,13 @@ permalink: /portfolio/houston-food-bank-distribution/
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">In a team of five members, I created and designed presentation slides, wrote VBA code, created macros, and developed the user interface (UI) for the Excel workbook. Other team members were responsible fo collecting and preprocessing data, building linear programming models, and filming the demonstration video.</div>
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Presentation Slides</div>
-<div style="margin-bottom: 20px;"><iframe src="https://drive.google.com/file/d/1FjhBmwNACEI1qb43VNOA0RvgQGqy3qKD/preview" width="100%" height="600" allow="autoplay"></iframe></div>
+<div style="margin-bottom: 20px;"><iframe src="https://drive.google.com/file/d/1FjhBmwNACEI1qb43VNOA0RvgQGqy3qKD/preview" width="100%" height="400" allow="autoplay"></iframe></div>
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Demonstration Video</div>
 <div style="margin-bottom: 20px;">
   <iframe 
     width="700" 
-    height="400" 
+    height="350" 
     src="https://www.youtube.com/embed/lgAWVUawKkE" 
     title="YouTube video player" 
     frameborder="0" 
@@ -50,4 +50,4 @@ permalink: /portfolio/houston-food-bank-distribution/
 </div>
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Excel Workbook</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;"> Explore the interactive optimization decision support tool in the <strong><a href="https://drive.google.com/file/d/1_qOQMvBJmFREliOb9_idlWio85HSQPvO/view?usp=sharing" style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">Houston Food Bank Workbook (xlsm)</a></strong></div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;"> Explore the interactive optimization decision support tool in the <strong><a href="https://drive.google.com/file/d/1_qOQMvBJmFREliOb9_idlWio85HSQPvO/view?usp=sharing" style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">Houston Food Bank Workbook (xlsm)</a></strong>.</div>
