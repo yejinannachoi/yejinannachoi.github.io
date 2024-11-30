@@ -361,7 +361,7 @@ nav ul .dropdown-menu {
 // }
 
 /*--------------------------------------------------------------
-	4.0 Footer
+	Footer
 --------------------------------------------------------------*/
 .site-footer {
   font-size: 14px;
@@ -387,7 +387,48 @@ nav ul .dropdown-menu {
 }
 
 /*--------------------------------------------------------------
-	5.0 Code formatting
+    Tools and Technologies
+--------------------------------------------------------------*/
+.tags-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 16px;
+  color: white;
+  display: inline-block;
+}
+
+.rapidminer {
+  background-color: #FF7F50; /* Coral */
+}
+
+.python {
+  background-color: #007BFF; /* Blue */
+}
+
+.logistic-regression {
+  background-color: #007BFF; /* Blue */
+}
+
+.decision-tree {
+  background-color: #28a745; /* Green */
+}
+
+.knn {
+  background-color: #6f42c1; /* Purple */
+}
+
+.naive-bayes {
+  background-color: #dc3545; /* Red */
+}
+
+/*--------------------------------------------------------------
+	Code formatting
 --------------------------------------------------------------*/
 pre,
 code {
@@ -409,7 +450,7 @@ pre {
     padding-left: 0; }
 
 /*--------------------------------------------------------------
-	6.0 Syntax highlighting styles
+	Syntax highlighting styles
 --------------------------------------------------------------*/
 .highlight {
   background: #fff; }
