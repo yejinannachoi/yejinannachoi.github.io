@@ -389,6 +389,7 @@ nav ul .dropdown-menu {
 /*--------------------------------------------------------------
     Tools and Technologies
 --------------------------------------------------------------*/
+
 .tags-container {
   display: flex;
   gap: 10px;
@@ -396,35 +397,24 @@ nav ul .dropdown-menu {
 }
 
 .tag {
-  padding: 8px 16px;
-  border-radius: 20px;
-  font-size: 16px;
-  color: white;
+  padding: 6px 12px;
+  border-radius: 0px;
+  font-size: 14px;
+  color: #0a0a0a;
   display: inline-block;
+  border: 1px solid #0a0a0a;
+  background-color: transparent;
 }
 
-.rapidminer {
-  background-color: #FF7F50; /* Coral */
-}
-
-.python {
-  background-color: #007BFF; /* Blue */
-}
-
-.logistic-regression {
-  background-color: #007BFF; /* Blue */
-}
-
-.decision-tree {
-  background-color: #28a745; /* Green */
-}
-
-.knn {
-  background-color: #6f42c1; /* Purple */
-}
-
+.rapidminer,
+.python,
+.logistic-regression,
+.decision-tree,
+.knn,
 .naive-bayes {
-  background-color: #dc3545; /* Red */
+  background-color: transparent;
+  color: #0a0a0a;
+  border: 1px solid #0a0a0a;
 }
 
 /*--------------------------------------------------------------
