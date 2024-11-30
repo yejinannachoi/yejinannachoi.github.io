@@ -29,7 +29,7 @@ permalink: /portfolio/airline-passenger-satisfaction/
   </div>
 
   <!-- Image Section -->
-  <div class="row" style="margin-bottom: 20px;">
+  <div class="row" style="margin-bottom: 40px;">
     <div class="col-12">
       <img src="{{ site.baseurl }}/airline-passenger-satisfaction/img.jpg" alt="Aircraft" class="img-fluid" style="max-width: 100%; width: 700px; display: block;">
     </div>
