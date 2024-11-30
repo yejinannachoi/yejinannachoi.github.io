@@ -212,16 +212,16 @@ permalink: /portfolio/airline-passenger-satisfaction/
 </div>
 </div>
 
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Decision Tree</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Easy to understand, implement, and use. It is computationally inexpensive and provides a simple decision boundary.</div>
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Decision Tree</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Easy to understand, implement, and use. It is computationally inexpensive and provides a simple decision boundary.</div>
 
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">k-Nearest Neighbors (kNN)</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Robust to noise and does not make assumptions about the data distribution. It is computationally expensive but highly flexible for complex data.</div>
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">k-Nearest Neighbors (kNN)</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Robust to noise and does not make assumptions about the data distribution. It is computationally expensive but highly flexible for complex data.</div>
 
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Logistic Regression</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Robust to outliers, fast to train, and has a linear decision boundary.</div>
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Logistic Regression</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Robust to outliers, fast to train, and has a linear decision boundary.</div>
 
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Naive Bayes</div>
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Naive Bayes</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Fast and simple, requiring fewer computational resources. It assumes that features are independent, which can be a limitation.</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Parameter Optimization</div>
