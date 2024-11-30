@@ -87,10 +87,10 @@ forms</li>
 <table style="width:100%; border-collapse: collapse; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px; text-align: center;">
     <tbody>
       <tr style="background-color: #f2f2f2;">
-        <td style="border: 1px solid #ddd; padding: 8px;">Variable</td>
-        <td style="border: 1px solid #ddd; padding: 8px;">Mean (M)</td>
-        <td style="border: 1px solid #ddd; padding: 8px;">Median (Mdn)</td>
-        <td style="border: 1px solid #ddd; padding: 8px;">Standard Deviation (s.d.)</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><strong>Variable</strong></td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><strong>Mean (M)</strong></td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><strong>Median (Mdn)</strong></td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><strong>Standard Deviation (s.d.)</strong></td>
       </tr>
       <tr>
         <td style="border: 1px solid #ddd; padding: 8px;">fixed.acidity</td>
@@ -177,7 +177,7 @@ forms</li>
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Model Development</div>
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Multiple Linear Regression Model</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px; line-height: 1.6;">
-  <em>quality</em>&ensp;= β<sub>0</sub>&ensp;+ β<sub>1</sub> <em>fixed.acidity</em>&ensp;+ β<sub>2</sub> <em>volatile.acidity</em>&ensp;+ β<sub>3</sub> <em>citric.acid</em>&ensp;+ β<sub>4</sub> <em>residual.sugar</em>&ensp;+ β<sub>5</sub> <em>chlorides</em>&ensp;+ β<sub>6</sub> <em>free.sulfur.dioxide</em>&ensp;+ β<sub>7</sub> <em>total.sulfur.dioxide</em>&ensp;+ β<sub>8</sub> <em>pH</em>&ensp;+ β<sub>9</sub> <em>sulphates</em>&ensp;+ β<sub>10</sub> <em>alcohol</em>&ensp;+ <em>u</em><sub>i</sub>
+  <em>quality</em>&ensp;=&ensp;β<sub>0</sub>&ensp;+&ensp;β<sub>1</sub> <em>fixed.acidity</em>&ensp;+&ensp;β<sub>2</sub> <em>volatile.acidity</em>&ensp;+&ensp;β<sub>3</sub> <em>citric.acid</em>&ensp;+&ensp;β<sub>4</sub> <em>residual.sugar</em>&ensp;+&ensp;β<sub>5</sub> <em>chlorides</em>&ensp;+&ensp;β<sub>6</sub> <em>free.sulfur.dioxide</em>&ensp;+&ensp;β<sub>7</sub> <em>total.sulfur.dioxide</em>&ensp;+&ensp;β<sub>8</sub> <em>pH</em>&ensp;+&ensp;β<sub>9</sub> <em>sulphates</em>&ensp;+&ensp;β<sub>10</sub> <em>alcohol</em>&ensp;+&ensp;<em>u</em><sub>i</sub>
 </div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Estimation Results</div>
@@ -185,11 +185,11 @@ forms</li>
   <table style="width:100%; border-collapse: collapse; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px; text-align: center;">
     <tbody>
       <tr style="background-color: #f2f2f2;">
-        <td style="border: 1px solid #ddd; padding: 8px;">Variable</td>
-        <td style="border: 1px solid #ddd; padding: 8px;">Estimated Coefficient (β<sub>n</sub>)</td>
-        <td style="border: 1px solid #ddd; padding: 8px;">Standard Error (SE)</td>
-        <td style="border: 1px solid #ddd; padding: 8px;">t-value</td>
-        <td style="border: 1px solid #ddd; padding: 8px;">p-value</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><strong>Variable</strong></td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><strong>Estimated Coefficient (β<sub>n</sub>)</strong></td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><strong>Standard Error (SE)</strong></td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><strong>t-value</strong></td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><strong>p-value</strong></td>
       </tr>
       <tr>
         <td style="border: 1px solid #ddd; padding: 8px;">intercept</td>
