@@ -87,7 +87,7 @@ forms</li>
 <table style="width:100%; border-collapse: collapse; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px; text-align: center;">
     <tbody>
       <tr style="background-color: #f2f2f2;">
-        <td style="border: 1px solid #ddd; padding: 8px;"><strong>Variable</strong></td>
+        <td style="border: 1px solid #ddd; padding: 8px;"> </td>
         <td style="border: 1px solid #ddd; padding: 8px;"><strong>Mean (M)</strong></td>
         <td style="border: 1px solid #ddd; padding: 8px;"><strong>Median (Mdn)</strong></td>
         <td style="border: 1px solid #ddd; padding: 8px;"><strong>Standard Deviation (s.d.)</strong></td>
@@ -176,16 +176,16 @@ forms</li>
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Model Development</div>
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Multiple Linear Regression Model</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px; line-height: 1.6;">
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">
   <em>quality</em>&ensp;=&ensp;β<sub>0</sub>&ensp;+&ensp;β<sub>1</sub> <em>fixed.acidity</em>&ensp;+&ensp;β<sub>2</sub> <em>volatile.acidity</em>&ensp;+&ensp;β<sub>3</sub> <em>citric.acid</em>&ensp;+&ensp;β<sub>4</sub> <em>residual.sugar</em>&ensp;+&ensp;β<sub>5</sub> <em>chlorides</em>&ensp;+&ensp;β<sub>6</sub> <em>free.sulfur.dioxide</em>&ensp;+&ensp;β<sub>7</sub> <em>total.sulfur.dioxide</em>&ensp;+&ensp;β<sub>8</sub> <em>pH</em>&ensp;+&ensp;β<sub>9</sub> <em>sulphates</em>&ensp;+&ensp;β<sub>10</sub> <em>alcohol</em>&ensp;+&ensp;<em>u</em><sub>i</sub>
 </div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Estimation Results</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 5px; line-height: 1.6;">
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 5px;">
   <table style="width:100%; border-collapse: collapse; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px; text-align: center;">
     <tbody>
       <tr style="background-color: #f2f2f2;">
-        <td style="border: 1px solid #ddd; padding: 8px;"><strong>Variable</strong></td>
+        <td style="border: 1px solid #ddd; padding: 8px;"> </td>
         <td style="border: 1px solid #ddd; padding: 8px;"><strong>Estimated Coefficient (β<sub>n</sub>)</strong></td>
         <td style="border: 1px solid #ddd; padding: 8px;"><strong>Standard Error (SE)</strong></td>
         <td style="border: 1px solid #ddd; padding: 8px;"><strong>t-value</strong></td>
@@ -271,6 +271,100 @@ forms</li>
     </tbody>
   </table>
 </div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">* Significant at the 10% level; ** Significant at the 5% level; *** Significant at the 1% level.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">* Significant at the 10% level; ** Significant at the 5% level; *** Significant at the 1% level.</div>
 
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Confidence Intervals (95%)</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">
+  <table style="width:100%; border-collapse: collapse; font-family: 'Source Sans 3', sans-serif; margin-top: 20px; text-align: center;">
+    <tbody>
+      <tr style="background-color: #f2f2f2;">
+        <td style="border: 1px solid #ddd; padding: 8px;"> </td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><strong>2.5%</strong></td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><strong>97.5%</strong></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px;">intercept</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">3.25</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">5.66</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px;">fixed.acidity</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">-0.02</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">0.04</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px;">volatile.acidity</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">-1.33</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">-0.86</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px;">citric.acid</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">-0.47</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">0.11</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px;">residual.sugar</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">-0.01</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">0.03</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px;">chlorides</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">-2.73</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">-1.09</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px;">free.sulfur.dioxide</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">0.00</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">0.01</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px;">total.sulfur.dioxide</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">0.00</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">0.00</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px;">pH</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">-0.81</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">-0.20</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px;">sulphates</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">0.68</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">1.11</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px;">alcohol</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">0.26</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">0.33</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ------------------------------------------- Model Evaluation ------------------------------------------- -->
+<hr>
+
+<div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Model Evaluation</div>
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Metrics</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">
+<ul>
+    <li>R-Squared: 36% of variability in wine quality is explained by the independent variables</li>
+    <li>Adjusted R-Squared: 36%, consistent with R-squared</li>
+    <li>Residual Standard Error (SE): 0.65, showing the average deviation between the observed data points and the fitted regression line is 0.65 units</li>
+    <li>F-Statistic: 89.43 (<em>p</em> &lt; 2.20 × 10<sup>-16</sup>)</li>
+  </ul>
+</div>
+
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Residuals</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The residuals represent the differences between the observed and predicted wine quality scores.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">
+ <ul>
+    <li>Minimum: -2.67</li>
+    <li>1st Quartile: -0.37</li>
+    <li>Median: -0.05</li>
+    <li>3rd Quartile: 0.46</li>
+    <li>Maximum: 2.04</li>
+  </ul>
+</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">The residuals are symmetrically distributed with a median close to zero, supporting the assumption that the mean of residuals is zero (MLR 4).</div>
 
