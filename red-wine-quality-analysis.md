@@ -441,7 +441,7 @@ forms</li>
   <li>
     <div><strong>MLR. 3</strong> No Perfect Multicollinearity</div>
     <ul>
-    <li>The correlation matrix confirmed no perfect collinearity among predictors (correlation coefficients &lt; |1|), satisfying MLR. 3.</li>
+    <li>The correlation matrix confirmed no perfect collinearity among predictors (correlation coefficients &lt; |1|).</li>
     </ul>
   </li>
   <li>
