@@ -59,12 +59,10 @@ permalink: /portfolio/airline-passenger-satisfaction/
 <hr>
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Data Understanding</div>
-<div class="container">
-  <div class="row" style="margin-bottom: 10px;">
-    <div class="col-12">
+<div class="row" style="margin-bottom: 10px;">
+<div>
       <img src="{{ site.baseurl }}/airline-passenger-satisfaction/kaggle.png" alt="Kaggle" class="img-fluid" style="max-width: 100%; width: 800px;">
-    </div>
-  </div>
+</div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;"><strong>Source: <a href="https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction" style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">Kaggle Public Dataset - Airline Passenger Satisfaction</a></strong></div>
 
@@ -139,10 +137,12 @@ permalink: /portfolio/airline-passenger-satisfaction/
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Disloyal customers are less likely to be satisfied.</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Gender and Satisfaction</div>
-<div class="row" style="margin-bottom: 10px;">
-<div>
+<div class="container">
+  <div class="row" style="margin-bottom: 10px;">
+    <div class="col-12">
   <img src="{{ site.baseurl }}/airline-passenger-satisfaction/gender.png" alt="Gender" class="img-fluid" style="max-width: 100%; width: 600px;">
-</div>
+    </div>
+  </div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">There is minimal difference in satisfaction between male and female customers.</div>
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Age and Satisfaction</div>
@@ -242,20 +242,24 @@ permalink: /portfolio/airline-passenger-satisfaction/
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Generalization Performance</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The evaluation results for the four predictive models show varying performance across different metrics. Here are the key findings:</div>
 
-<div class="row" style="margin-bottom: 10px;">
-<div>
+<div class="container">
+  <div class="row" style="margin-bottom: 10px;">
+    <div class="col-12">
   <img src="{{ site.baseurl }}/airline-passenger-satisfaction/performance-matrix.png" alt="Performance Matrix" class="img-fluid" style="max-width: 100%; width: 700px;">
-</div>
+    </div>
+  </div>
 </div>
 
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;"><strong>The Decision Tree model</strong> was the best in terms of general performance, with good accuracy and high AUC. It is also easy to understand, implement, and computationally efficient.</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;"><strong>Logistic Regression</strong> achieved the best precision, which is important in this context as we want to avoid false positives (predicting satisfied passengers when they are actually dissatisfied).</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">ROC Curves</div>
-<div class="row" style="margin-bottom: 10px;">
-<div>
+<div class="container">
+  <div class="row" style="margin-bottom: 10px;">
+    <div class="col-12">
   <img src="{{ site.baseurl }}/airline-passenger-satisfaction/roc-curves.png" alt="ROC Curves" class="img-fluid" style="max-width: 100%; width: 700px;">
-</div>
+    </div>
+  </div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The ROC curves further validate the performance of the models. The Decision Tree classifier performs the best, as it is positioned most to the northwest in the curve and has the largest area under the ROC curve (AUC).</div>
 
