@@ -8,7 +8,18 @@ permalink: /portfolio/airline-passenger-satisfaction/
 <div>
 <div style="font-size:30px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Airline Passenger
 Satisfaction Prediction</div>
+  
 <div class="row" style="margin-bottom: 20px;">
+
+<div class="tags-container" style="margin-bottom: 20px;">
+  <span class="tag rapidminer">RapidMiner</span>
+  <span class="tag python">Python</span>
+  <span class="tag logistic-regression">Logistic Regression</span>
+  <span class="tag decision-tree">Decision Tree</span>
+  <span class="tag knn">kNN</span>
+  <span class="tag naive-bayes">Naive Bayes</span>
+</div>
+
 <div>
   <img src="{{ site.baseurl }}/airline-passenger-satisfaction/img.jpg" alt="Aircraft" class="img-fluid" style="max-width: 100%; width: 700px;">
 </div>
@@ -63,7 +74,7 @@ Satisfaction Prediction</div>
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Target Variable Distribution</div>
 <div class="row" style="margin-bottom: 10px;">
 <div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/target-variable-distribution.png" alt="Target Variable Distribution" class="img-fluid" style="max-width: 100%; width: 250px;">
+  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/target-variable-distribution.png" alt="Target Variable Distribution" class="img-fluid" style="max-width: 100%; width: 300px;">
 </div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The distribution of the target variable is roughly the same.</div>
