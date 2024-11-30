@@ -414,3 +414,43 @@ forms</li>
 <hr>
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Results & Discussion</div>
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Regression Coefficients and Significance</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">The estimated coefficients provide insight into the effect of each variable on wine quality while holding other variables constant.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Significant Variables:</div>
+<ul style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">
+  <li>volatile.acidity: Coefficient = -1.10, p &lt; 0.001, indicating a strong negative effect on wine quality.</li>
+  <li>chlorides: Coefficient = -1.91, p &lt; 0.001, indicating a strong negative effect.</li>
+  <li>sulphates: Coefficient = +0.89, p &lt; 0.001, indicating a strong positive effect.</li>
+  <li>alcohol: Coefficient = +0.29, p &lt; 0.001, indicating a positive effect.</li>
+</ul>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Non-Significant Variables:</div>
+<ul style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">
+  <li>fixed.acidity, citric.acid, residual.sugar, free.sulfur.dioxide, and total.sulfur.dioxide, as their confidence intervals include zero.</li>
+</ul>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">These results might suggest that winemakers should focus on optimizing sulphates and alcohol levels while reducing volatile acidity and chlorides to improve wine quality. Non-significant variables may not have a significant effect alone but could have joint effects when considered with other predictors.</div>
+
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">MLR Assumptions</div>
+<ol style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">
+  <li>
+    <div>No Perfect Multicollinearity (MLR. 3):</div>
+    <div>The correlation matrix confirmed no perfect collinearity among predictors (correlation coefficients &lt; |1|), satisfying MLR. 3.</div>
+  </li>
+  <li>
+    <div>Residual Mean = 0 and Normality of Residuals (MLR. 4 and MLR. 6):</div>
+    <ul>
+      <li>Residual Summary Statistics indicate symmetry around a median close to zero, supporting MLR. 4 (residuals have mean zero).</li>
+      <li>Deviations from the reference line at the extremes (e.g., near -3 and -2) of the Q-Q plot indicate that the residuals do not follow a perfectly normal distribution.</li>
+    </ul>
+  </li>
+  <li>
+    <div>Homoscedasticity (MLR. 5):</div>
+    <ul>
+      <li>The residual plot reveals that residuals are not randomly scattered around zero, suggesting a violation of the assumption of homoscedasticity. The variance of residuals changes depending on the predicted values.</li>
+      <li>The scale-location plot shows a pattern among the residuals, further confirming a violation of homoscedasticity. Ideally, the residuals should be evenly spread, but this is not observed in the plot.</li>
+    </ul>
+  </li>
+</ol>
+
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Conclusion</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">The multiple linear regression model provides valuable insights into factors affecting red wine quality, with significant predictors such as volatile acidity, chlorides, sulphates, and alcohol playing key roles. However, the model's fit and violations of MLR assumptions suggest the need for alternative methods, such as non-linear regression or machine learning, to better capture the complexity of the data.</div>
+
