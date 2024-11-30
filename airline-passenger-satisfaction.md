@@ -73,7 +73,7 @@ permalink: /portfolio/airline-passenger-satisfaction/
   <ul>
     <li>The train set contains 103,904 rows and 23 columns, and the test set contains 25,976 rows and 23 columns. The two datasets were joined and sampled for analysis.</li>
     <li>The datasets include both categorical and numerical data such as passenger demographics, inflight and external services satisfaction levels, flight information, and satisfaction status.</li>
-    <li><strong>Target Variable:</strong> <code>satisfaction</code> (1: satisfied, 0: dissatisfied or neutral).</li>
+    <li><strong>Target Variable:</strong> satisfaction (1: satisfied, 0: dissatisfied or neutral).</li>
   </ul>
 </div>
 
@@ -88,7 +88,7 @@ permalink: /portfolio/airline-passenger-satisfaction/
   <img src="{{ site.baseurl }}/airline-passenger-satisfaction/correlation-matrix.png" alt="Correlation Matrix" class="img-fluid" style="max-width: 100%; width: 800px;">
 </div>
 </div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The top 3 correlated attributes with the target variable (satisfaction) are Online boarding (0.504), Type of Travel (0.499), Inflight entertainment (0.398).</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The top 3 correlated attributes with the target variable (satisfaction) are Online boarding (0.504), Type of Travel (0.499), and Inflight entertainment (0.398).</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Target Variable Distribution</div>
 <div class="row" style="margin-bottom: 10px;">
