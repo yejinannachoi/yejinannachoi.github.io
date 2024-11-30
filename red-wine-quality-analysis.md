@@ -51,27 +51,29 @@ permalink: /portfolio/red-wine-quality-analysis/
 
 <div style="margin-top: 10px;"></div>
 
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">
-  <p>The dataset consists of 1,599 observations of red wine, with 12 variables.</p>
-  <ul>
-    <li><strong>Input Variables:</strong></li>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">The dataset consists of 1,599 observations of red wine, with 12 variables.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;"><strong>Input Variables:</strong></div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">
     <ul>
-      <li><strong>fixed.acidity:</strong> the amount of fixed acids (non-volatile) in the wine</li>
-      <li><strong>volatile.acidity:</strong> the amount of volatile acids (acetic acid) in the wine</li>
-      <li><strong>citric.acid:</strong> the amount of citric acid in the wine</li>
-      <li><strong>residual.sugar:</strong> the amount of residual sugar (unfermented sugar) in the wine</li>
-      <li><strong>chlorides:</strong> the amount of salt in the wine</li>
-      <li><strong>free.sulfur.dioxide:</strong> the amount of free form of sulfur dioxide in the wine</li>
-      <li><strong>total.sulfur.dioxide:</strong> the total amount of sulfur dioxide in the wine, including both free and bound
+      <li>fixed.acidity: the amount of fixed acids (non-volatile) in the wine</li>
+      <li>volatile.acidity: the amount of volatile acids (acetic acid) in the wine</li>
+      <li>citric.acid: the amount of citric acid in the wine</li>
+      <li>residual.sugar: the amount of residual sugar (unfermented sugar) in the wine</li>
+      <li>chlorides: the amount of salt in the wine</li>
+      <li>free.sulfur.dioxide: the amount of free form of sulfur dioxide in the wine</li>
+      <li>total.sulfur.dioxide: the total amount of sulfur dioxide in the wine, including both free and bound
 forms</li>
-      <li><strong>density:</strong> the density of the wine</li>
-      <li><strong>pH:</strong> the pH level of the wine, on a scale from 0 (very acidic) to 14 (very basic)</li>
-      <li><strong>sulphates:</strong> the amount of sulphates in the wine</li>
-      <li><strong>alcohol:</strong> the alcohol content of the wine (in %)</li>
-    </ul>
-    <li><strong>Output Variable:</strong></li>
-    <ul>
-      <li><strong>quality:</strong> a rating of the wine's quality, based on sensory data, score between 0 and 10.</li>
-    </ul>
+      <li>density: the density of the wine</li>
+      <li>pH: the pH level of the wine, on a scale from 0 (very acidic) to 14 (very basic)</li>
+      <li>sulphates: the amount of sulphates in the wine</li>
+      <li>alcohol: the alcohol content of the wine (in %)</li>
   </ul>
 </div>
+
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;"><strong>Input Variables:</strong></div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">
+    <ul>
+    <li>quality: a rating of the wine's quality, based on sensory data, score between 0 and 10.</li>
+    </ul>
+</div>
+    
