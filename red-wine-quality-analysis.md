@@ -25,13 +25,13 @@ permalink: /portfolio/red-wine-quality-analysis/
   </div>
 
   <!-- Image Section -->
-  <div class="row" style="margin-bottom: 40px;">
+  <div class="row" style="margin-bottom: 10px;">
     <div class="col-12">
       <img src="{{ site.baseurl }}/red-wine-quality-analysis/img.jpg" alt="Red Wine" class="img-fluid" style="max-width: 100%; width: 700px; display: block;">
     </div>
   </div>
 </div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Photo by <a href="https://pixabay.com/photos/wine-retro-wine-glass-wine-bottle-2408620" style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">WolfBlur on Pixabay</a></div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">Photo by <a href="https://pixabay.com/photos/wine-retro-wine-glass-wine-bottle-2408620" style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">WolfBlur on Pixabay</a></div>
 
 <!-- ------------------------------------------- Overview ------------------------------------------- -->
 
@@ -173,7 +173,7 @@ forms</li>
 <div class="container">
   <div class="row" style="margin-bottom: 10px;">
     <div class="col-12">
-  <img src="{{ site.baseurl }}/red-wine-quality-analysis/correlation-matrix.png" alt="Correlation Matrix" class="img-fluid" style="max-width: 100%; width: 700px;">
+  <img src="{{ site.baseurl }}/red-wine-quality-analysis/correlation-matrix.png" alt="Correlation Matrix" class="img-fluid" style="max-width: 100%; width: 600px;">
     </div>
   </div>
 </div>
