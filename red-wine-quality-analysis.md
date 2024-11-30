@@ -27,10 +27,11 @@ permalink: /portfolio/red-wine-quality-analysis/
   <!-- Image Section -->
   <div class="row" style="margin-bottom: 40px;">
     <div class="col-12">
-      <img src="{{ site.baseurl }}/airline-passenger-satisfaction/img.jpg" alt="Aircraft" class="img-fluid" style="max-width: 100%; width: 700px; display: block;">
+      <img src="{{ site.baseurl }}/red-wine-quality-analysis/img.jpg" alt="Red Wine" class="img-fluid" style="max-width: 100%; width: 700px; display: block;">
     </div>
   </div>
 </div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Photo by <a href="https://pixabay.com/photos/wine-retro-wine-glass-wine-bottle-2408620" style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">WolfBlur on Pixabay</a></div>
 
 <!-- ------------------------------------------- Overview ------------------------------------------- -->
 
@@ -44,7 +45,7 @@ permalink: /portfolio/red-wine-quality-analysis/
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Dataset Description</div>
 <div class="row" style="margin-bottom: 10px;">
 <div>
-      <img src="{{ site.baseurl }}/airline-passenger-satisfaction/kaggle.png" alt="Kaggle" class="img-fluid" style="max-width: 100%; width: 800px;">
+      <img src="{{ site.baseurl }}/red-wine-quality-analysis/kaggle.png" alt="Kaggle" class="img-fluid" style="max-width: 100%; width: 800px;">
 </div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">Source: <strong><a href="https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009" style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">Kaggle Public Dataset - Red Wine Quality</a></strong></div>
@@ -169,6 +170,13 @@ forms</li>
   </div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Correlation Matrix</div>
+<div class="container">
+  <div class="row" style="margin-bottom: 10px;">
+    <div class="col-12">
+  <img src="{{ site.baseurl }}/red-wine-quality-analysis/correlation-matrix.png" alt="Correlation Matrix" class="img-fluid" style="max-width: 100%; width: 700px;">
+    </div>
+  </div>
+</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">A correlation analysis was conducted to assess the relationship between each variable and wine quality. Among different regressors, density was removed as it is highly correlated with fixed.acidity (-0.79) and alcohol (0.76).</div>
 
 <!-- ------------------------------------------- Model Development ------------------------------------------- -->
@@ -348,7 +356,6 @@ forms</li>
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Metrics</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 5px;"><strong>R-Squared</strong> = 0.36</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 15px;">36% of variability in wine quality is explained by the independent variables.</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 15px;"><strong>Adjusted R-Squared</strong> = 0.36</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 5px;"><strong>Residual Standard Error</strong> = 0.65</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 15px;">The average deviation between the observed data points and the fitted regression line is 0.65 units.</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;"><strong>F-Statistic</strong> = 89.43 (<em>p</em> &lt; 2.20 × 10<sup>-16</sup>)</div>
@@ -363,19 +370,43 @@ forms</li>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The residuals are symmetrically distributed with a median close to zero, supporting the assumption that the mean of residuals is zero (MLR 4).</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Residual Plot</div>
-
+<div class="container">
+  <div class="row" style="margin-bottom: 10px;">
+    <div class="col-12">
+  <img src="{{ site.baseurl }}/red-wine-quality-analysis/residual-plot.png" alt="Residual Plot" class="img-fluid" style="max-width: 100%; width: 700px;">
+    </div>
+  </div>
+</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Plot of residuals from multiple linear regression model</div>
 
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Q-Q Plot</div>
-
+<div class="container">
+  <div class="row" style="margin-bottom: 10px;">
+    <div class="col-12">
+  <img src="{{ site.baseurl }}/red-wine-quality-analysis/q-q-plot.png" alt="Q-Q Plot" class="img-fluid" style="max-width: 100%; width: 700px;">
+    </div>
+  </div>
+</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Normal Q-Q plot using residuals from MLR model and normal distribution</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Scale-Location Plot</div>
-
+<div class="container">
+  <div class="row" style="margin-bottom: 10px;">
+    <div class="col-12">
+  <img src="{{ site.baseurl }}/red-wine-quality-analysis/scale-location-plot.png" alt="Scale-Location Plot" class="img-fluid" style="max-width: 100%; width: 700px;">
+    </div>
+  </div>
+</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Scale location plot using square root of absolute residuals against fitted values of the regression model</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Residuals vs. Leverage Plot</div>
-
+<div class="container">
+  <div class="row" style="margin-bottom: 10px;">
+    <div class="col-12">
+  <img src="{{ site.baseurl }}/red-wine-quality-analysis/residual-leverage-plot.png" alt="Residuals Leverage Plot" class="img-fluid" style="max-width: 100%; width: 700px;">
+    </div>
+  </div>
+</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">Standardized residuals plotted against leverage (how much the observation differs from other observations)</div>
 
