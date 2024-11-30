@@ -3,34 +3,41 @@ layout: inner
 title: Airline Passenger Satisfaction
 permalink: /portfolio/airline-passenger-satisfaction/
 ---
-<div class="row" style="margin-top: 50px;">
+<div class="container" style="margin-top: 50px;">
 
-<div class="col-12">
-<div style="font-size:40px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Airline Passenger
-Satisfaction Prediction</div>
-</div>
-  
-<div class="row" style="margin-bottom: 20px;">
+  <!-- Title Section -->
+  <div class="row">
+    <div class="col-12">
+      <div style="font-size:40px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">
+        Airline Passenger Satisfaction Prediction
+      </div>
+    </div>
+  </div>
 
-<div class="col-12">
-<div class="tags-container" style="margin-bottom: 20px;">
-  <span class="tag rapidminer">RapidMiner</span>
-  <span class="tag python">Python</span>
-  <span class="tag logistic-regression">Logistic Regression</span>
-  <span class="tag decision-tree">Decision Tree</span>
-  <span class="tag knn">kNN</span>
-  <span class="tag naive-bayes">Naive Bayes</span>
-</div>
-</div>
+  <!-- Tags Section -->
+  <div class="row" style="margin-bottom: 20px;">
+    <div class="col-12">
+      <div class="tags-container" style="display: flex; gap: 10px; flex-wrap: wrap;">
+        <span class="tag rapidminer">RapidMiner</span>
+        <span class="tag python">Python</span>
+        <span class="tag logistic-regression">Logistic Regression</span>
+        <span class="tag decision-tree">Decision Tree</span>
+        <span class="tag knn">kNN</span>
+        <span class="tag naive-bayes">Naive Bayes</span>
+      </div>
+    </div>
+  </div>
 
-<div class="col-12">
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/img.jpg" alt="Aircraft" class="img-fluid" style="max-width: 100%; width: 700px;">
-</div>
+  <!-- Image Section -->
+  <div class="row">
+    <div class="col-12">
+      <img src="{{ site.baseurl }}/airline-passenger-satisfaction/img.jpg" alt="Aircraft" class="img-fluid" style="max-width: 100%; width: 700px; display: block;">
+    </div>
+  </div>
 </div>
   
 <!-- ------------------------------------------- Business Understanding ------------------------------------------- -->
 
-<div class="col-12">
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Business Understanding</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Objective</div>
@@ -47,7 +54,6 @@ Satisfaction Prediction</div>
 
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Case Study - United Airlines vs. American Airlines</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">The importance of focusing on the right factors is demonstrated by a case study involving United and American Airlines. Despite their efforts to improve coffee quality or offer luggage delivery services, both airlines remain at the bottom of the ACSI rankings. This highlights the need for data-driven insights to identify the true drivers of dissatisfaction, which this project aims to address.</div>
-</div>
 
 <!-- ------------------------------------------- Data Understanding ------------------------------------------- -->
 <hr>
