@@ -39,7 +39,7 @@ permalink: /portfolio/houston-food-bank-distribution/
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Demonstration Video</div>
 <div style="margin-bottom: 20px;">
   <iframe 
-    width="700" 
+    width="800" 
     height="400" 
     src="https://www.youtube.com/embed/lgAWVUawKkE" 
     title="YouTube video player" 
