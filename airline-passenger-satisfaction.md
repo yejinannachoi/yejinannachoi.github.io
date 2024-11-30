@@ -58,6 +58,7 @@ permalink: /portfolio/airline-passenger-satisfaction/
 <!-- ------------------------------------------- Data Understanding ------------------------------------------- -->
 <hr>
 
+<div class="container">
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Data Understanding</div>
 <div class="row" style="margin-bottom: 10px;">
   <div class="row" style="margin-bottom: 20px;">
@@ -75,8 +76,9 @@ permalink: /portfolio/airline-passenger-satisfaction/
   <ul>
     <li>The train set contains 103,904 rows and 23 columns, and the test set contains 25,976 rows and 23 columns. The two datasets were joined and sampled for analysis.</li>
     <li>The datasets include both categorical and numerical data such as passenger demographics, inflight and external services satisfaction levels, flight information, and satisfaction status.</li>
-    <li><strong>Target Variable:</strong> <code>satisfaction</code> (1: satisfied, 0: dissatisfied or neutral).</li>
+    <li><strong>Target Variable:</strong> satisfaction (1: satisfied, 0: dissatisfied or neutral).</li>
   </ul>
+</div>
 </div>
 
 <!-- ------------------------------------------- Exploratory Data Analysis ------------------------------------------- -->
@@ -90,7 +92,7 @@ permalink: /portfolio/airline-passenger-satisfaction/
   <img src="{{ site.baseurl }}/airline-passenger-satisfaction/correlation-matrix.png" alt="Correlation Matrix" class="img-fluid" style="max-width: 100%; width: 800px;">
 </div>
 </div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The top 3 correlated attributes with <code>satisfaction</code> are <code>Online boarding</code> (0.504), <code>Type of Travel</code> (0.499), <code>Inflight entertainment</code> (0.398)</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The top 3 correlated attributes with the target variable (satisfaction) are Online boarding (0.504), Type of Travel (0.499), Inflight entertainment (0.398).</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Target Variable Distribution</div>
 <div class="row" style="margin-bottom: 10px;">
@@ -172,7 +174,7 @@ permalink: /portfolio/airline-passenger-satisfaction/
   <img src="{{ site.baseurl }}/airline-passenger-satisfaction/arrival-delay-departure-delay-correlation.png" alt="Delay Variables Correlation" class="img-fluid" style="max-width: 100%; width: 600px;">
 </div>
 </div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The dataset contains 393 missing values out of 129,880 for <code>Arrival Delay in Minutes</code>, accounting for 0.3% of the data. To handle these missing values, we replaced the missing values with the mean of <code>Departure Delay in Minutes</code>, as it showed the highest correlation with <code>Arrival Delay in Minutes</code> (0.96). This approach ensures the imputation of missing values is based on a relevant and highly correlated feature.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The dataset contains 393 missing values out of 129,880 for Arrival Delay in Minutes, accounting for 0.3% of the data. To handle these missing values, we replaced the missing values with the mean of Departure Delay in Minutes, as it showed the highest correlation with Arrival Delay in Minutes (0.96). This approach ensures the imputation of missing values is based on a relevant and highly correlated feature.</div>
 
 <div style="margin-top: 10px;"></div>
 
@@ -191,8 +193,8 @@ permalink: /portfolio/airline-passenger-satisfaction/
 
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">
   <ul>
-    <li>Passenger information such as <code>Gender</code> <code>Age</code> <code>Customer Type</code> <code>Type of Travel</code> and <code>Class</code></li>
-    <li><code>Flight Distance</code> and <code>satisfaction</code> (the target variable)</li>
+    <li>Passenger information such as Gender, Age, Customer Type, Type of Travel, and Class</li>
+    <li>Flight Distance and satisfaction (the target variable)</li>
   </ul>
 </div>
 
@@ -263,11 +265,11 @@ permalink: /portfolio/airline-passenger-satisfaction/
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">The predictive model provides actionable insights into passenger satisfaction before passengers begin their journey. Airlines can use the model to identify key passenger satisfaction drivers.</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">
   <ul>
-    <li><code>Customer Type</code> : Disloyal customers are twice as likely to be dissatisfied.</li>
+    <li>Customer Type: Disloyal customers are twice as likely to be dissatisfied.</li>
     <ul>
       <li>Offer loyalty programs that build engagement through points systems, personalized newsletters, and discounts.</li>
     </ul>
-    <li><code>Type of Travel</code> : A significant percentage (90%) of personal travelers, particularly those traveling in Economy or Economy Plus class, report lower satisfaction levels. These travelers often rate inflight services such as food, drink, and baggage handling poorly.</li>
+    <li>Type of Travel: A significant percentage (90%) of personal travelers, particularly those traveling in Economy or Economy Plus class, report lower satisfaction levels. These travelers often rate inflight services such as food, drink, and baggage handling poorly.</li>
       <ul>
       <li>Offer additional value-added services, such as assisting with luggage handling or providing waste bags, to improve their travel experience</li>
       </ul>
