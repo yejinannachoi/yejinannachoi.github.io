@@ -52,6 +52,9 @@ permalink: /portfolio/red-wine-quality-analysis/
 <div style="margin-top: 10px;"></div>
 
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">The dataset consists of 1,599 observations of red wine, with 12 variables.</div>
+
+<div style="margin-top: 10px;"></div>
+
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;"><strong>Input Variables:</strong></div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">
     <ul>
@@ -76,4 +79,5 @@ forms</li>
     <li>quality: a rating of the wine's quality, based on sensory data, score between 0 and 10.</li>
     </ul>
 </div>
-    
+
+
