@@ -37,9 +37,10 @@ permalink: /portfolio/houston-food-bank-distribution/
   
 <!-- ------------------------------------------- Deliverables ------------------------------------------- -->
 
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">In a team of five members, I created and designed presentation slides, wrote VBA code, created macros, and developed the user interface (UI) for the workbook. Other team members collected and preprocessed data, built linear programming models, and filmed the demonstration video.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">In a team of five members, I created and designed presentation slides, wrote VBA code, created macros, and developed the user interface (UI) for the Excel workbook. Other team members collected and preprocessed data, built linear programming models, and filmed the demonstration video.</div>
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Presentation Slides</div>
+<div style="margin-bottom: 20px;"><iframe src="https://drive.google.com/file/d/1FjhBmwNACEI1qb43VNOA0RvgQGqy3qKD/preview" width="100%" allow="autoplay"></iframe></div>
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Demonstration Video</div>
 <div style="margin-bottom: 20px;">
@@ -55,3 +56,4 @@ permalink: /portfolio/houston-food-bank-distribution/
 </div>
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Excel Workbook</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;"> <strong><a href="https://drive.google.com/file/d/1_qOQMvBJmFREliOb9_idlWio85HSQPvO/view?usp=sharing" style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">Houston Food Bank Workbook (xlsm)</a></strong></div>
