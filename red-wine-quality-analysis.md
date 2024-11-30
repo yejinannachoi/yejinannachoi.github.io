@@ -346,12 +346,12 @@ forms</li>
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Model Evaluation</div>
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Metrics</div>
-<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 5px;">R-Squared = 0.36</div>
-<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 15px;">36% of variability in wine quality is explained by the independent variables.</div>
-<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 15px;">Adjusted R-Squared = 0.36</div>
-<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 5px;">Residual Standard Error (SE): 0.65</div>
-<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 15px;">The average deviation between the observed data points and the fitted regression line is 0.65 units.</div>
-<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">F-Statistic: 89.43 (<em>p</em> &lt; 2.20 × 10<sup>-16</sup>)</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 5px;">R-Squared = 0.36</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 15px;">36% of variability in wine quality is explained by the independent variables.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 15px;">Adjusted R-Squared = 0.36</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 5px;">Residual Standard Error (SE) = 0.65</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 15px;">The average deviation between the observed data points and the fitted regression line is 0.65 units.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">F-Statistic = 89.43 (<em>p</em> &lt; 2.20 × 10<sup>-16</sup>)</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Residuals</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">The residuals represent the differences between the observed and predicted wine quality scores.</div>
@@ -361,4 +361,21 @@ forms</li>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">3rd Quartile: 0.46</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Maximum: 2.04</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">The residuals are symmetrically distributed with a median close to zero, supporting the assumption that the mean of residuals is zero (MLR 4).</div>
+
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Residual Plot</div>
+
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Plot of residuals from multiple linear regression model</div>
+
+
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Q-Q Plot</div>
+
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Normal Q-Q plot using residuals from MLR model and normal distribution</div>
+
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Scale-Location Plot</div>
+
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Scale location plot using square root of absolute residuals against fitted values of the regression model</div>
+
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Residuals vs. Leverage Plot</div>
+
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Standardized residuals plotted against leverage (how much the observation differs from other observations)</div>
 
