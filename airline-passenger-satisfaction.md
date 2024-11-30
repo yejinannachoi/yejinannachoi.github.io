@@ -63,7 +63,7 @@ Satisfaction Prediction</div>
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Target Variable Distribution</div>
 <div class="row" style="margin-bottom: 10px;">
 <div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/target-variable-distribution.png" alt="Target Variable Distribution" class="img-fluid" style="max-width: 100%; width: 300px;">
+  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/target-variable-distribution.png" alt="Target Variable Distribution" class="img-fluid" style="max-width: 100%; width: 250px;">
 </div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The distribution of the target variable is roughly the same.</div>
@@ -79,10 +79,10 @@ Satisfaction Prediction</div>
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Class and Satisfaction</div>
 <div class="row" style="margin-bottom: 10px;">
   <div class="col-md-6">
-    <img src="{{ site.baseurl }}/airline-passenger-satisfaction/class-distribution.png" alt="Class Distribution" class="img-fluid" style="max-width: 100%; height: 300px; object-fit: contain;">
+    <img src="{{ site.baseurl }}/airline-passenger-satisfaction/class.png" alt="Class" class="img-fluid" style="max-width: 100%; height: 300px; object-fit: contain;">
   </div>
   <div class="col-md-6">
-    <img src="{{ site.baseurl }}/airline-passenger-satisfaction/class.png" alt="Class" class="img-fluid" style="max-width: 100%; height: 300px; object-fit: contain;">
+    <img src="{{ site.baseurl }}/airline-passenger-satisfaction/class-distribution.png" alt="Class Distribution" class="img-fluid" style="max-width: 100%; height: 300px; object-fit: contain;">
   </div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Most passengers fly in Business or Economy Class.</div>
@@ -91,14 +91,12 @@ Satisfaction Prediction</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Type of Travel and Satisfaction</div>
 <div class="row" style="margin-bottom: 10px;">
-<div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/type-of-travel.png" alt="Type of Travel" class="img-fluid" style="max-width: 100%; width: 600px;">
-</div>
-</div>
-<div class="row" style="margin-bottom: 10px;">
-<div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/type-of-travel-distribution.png" alt="Type of Travel Distribution" class="img-fluid" style="max-width: 100%; width: 500px;">
-</div>
+    <div class="col-md-6">
+    <img src="{{ site.baseurl }}/airline-passenger-satisfaction/type-of-travel.png" alt="Type of Travel" class="img-fluid" style="max-width: 100%; height: 300px; object-fit: contain;">
+  </div>
+  <div class="col-md-6">
+    <img src="{{ site.baseurl }}/airline-passenger-satisfaction/type-of-travel-distribution.png" alt="Type of Travel Distribution" class="img-fluid" style="max-width: 100%; height: 300px; object-fit: contain;">
+  </div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">69% of customers travel for business purposes.</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">60% of business travelers are satisfied.</div>
@@ -106,14 +104,12 @@ Satisfaction Prediction</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Customer Type and Satisfaction</div>
 <div class="row" style="margin-bottom: 10px;">
-<div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/customer-type.png" alt="Customer Type" class="img-fluid" style="max-width: 100%; width: 600px;">
-</div>
-</div>
-<div class="row" style="margin-bottom: 10px;">
-<div>
-  <img src="{{ site.baseurl }}/airline-passenger-satisfaction/customer-type-distribution.png" alt="Customer Type Distribution" class="img-fluid" style="max-width: 100%; width: 400px;">
-</div>
+    <div class="col-md-6">
+    <img src="{{ site.baseurl }}/airline-passenger-satisfaction/customer-type.png" alt="Customer Type" class="img-fluid" style="max-width: 100%; height: 300px; object-fit: contain;">
+  </div>
+  <div class="col-md-6">
+    <img src="{{ site.baseurl }}/airline-passenger-satisfaction/customer-type-distribution.png" alt="Customer Type Distribution" class="img-fluid" style="max-width: 100%; height: 300px; object-fit: contain;">
+  </div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">A majority of customers (81%) are loyal.</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Disloyal customers are less likely to be satisfied.</div>
