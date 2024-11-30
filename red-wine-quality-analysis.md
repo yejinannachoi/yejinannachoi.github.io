@@ -85,15 +85,13 @@ forms</li>
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Descriptive Statistics</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">
 <table style="width:100%; border-collapse: collapse; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px; text-align: center;">
-    <thead>
-      <tr style="background-color: #f2f2f2; text-align: center;">
+    <tbody>
+      <tr style="background-color: #f2f2f2;">
         <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Variable</th>
         <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Mean (M)</th>
         <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Median (Mdn)</th>
         <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Standard Deviation (s.d.)</th>
       </tr>
-    </thead>
-    <tbody>
       <tr>
         <td style="border: 1px solid #ddd; padding: 8px;">fixed.acidity</td>
         <td style="border: 1px solid #ddd; padding: 8px;">8.32</td>
@@ -178,21 +176,19 @@ forms</li>
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Model Development</div>
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Multiple Linear Regression Model</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px; line-height: 1.6;"><em>quality</em>  = β<sub>0</sub>  + β<sub>1</sub> <em>fixed.acidity</em>  + β<sub>2</sub> <em>volatile.acidity</em>  + β<sub>3</sub> <em>citric.acid</em>  + β<sub>4</sub> <em>residual.sugar</em>  + β<sub>5</sub> <em>chlorides</em>  + β<sub>6</sub> <em>free.sulfur.dioxide</em>  + β<sub>7</sub> <em>total.sulfur.dioxide</em>  + β<sub>8</sub> <em>pH</em>  + β<sub>9</sub> <em>sulphates</em>  + β<sub>10</sub> <em>alcohol</em>  + <em>u</em><sub>i</sub></div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px; line-height: 1.6;"><em>quality</em>&nbsp;= β<sub>0</sub>&nbsp;+ β<sub>1</sub> <em>fixed.acidity</em>&nbsp;+ β<sub>2</sub> <em>volatile.acidity</em>&nbsp;+ β<sub>3</sub> <em>citric.acid</em>&nbsp;+ β<sub>4</sub> <em>residual.sugar</em>&nbsp;+ β<sub>5</sub> <em>chlorides</em>&nbsp;+ β<sub>6</sub> <em>free.sulfur.dioxide</em>&nbsp;+ β<sub>7</sub> <em>total.sulfur.dioxide</em>&nbsp;+ β<sub>8</sub> <em>pH</em>&nbsp;+ β<sub>9</sub> <em>sulphates</em>&nbsp;+ β<sub>10</sub> <em>alcohol</em>&nbsp;+ <em>u</em><sub>i</sub></div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Estimation Results</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 5px; line-height: 1.6;">
   <table style="width:100%; border-collapse: collapse; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px; text-align: center;">
-    <thead>
-      <tr style="background-color: #f2f2f2; text-align: center;">
+    <tbody>
+      <tr style="background-color: #f2f2f2;">
         <th style="border: 1px solid #ddd; padding: 8px;">Variable</th>
         <th style="border: 1px solid #ddd; padding: 8px;">Estimated Coefficient (β<sub>n</sub>)</th>
         <th style="border: 1px solid #ddd; padding: 8px;">Standard Error (SE)</th>
         <th style="border: 1px solid #ddd; padding: 8px;">t-value</th>
         <th style="border: 1px solid #ddd; padding: 8px;">p-value</th>
       </tr>
-    </thead>
-    <tbody>
       <tr>
         <td style="border: 1px solid #ddd; padding: 8px;">intercept</td>
         <td style="border: 1px solid #ddd; padding: 8px;">4.45</td>
