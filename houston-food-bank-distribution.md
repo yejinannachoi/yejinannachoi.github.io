@@ -28,7 +28,7 @@ permalink: /portfolio/houston-food-bank-distribution/
   </div>
 
   <!-- Image Section -->
-  <div class="row" style="margin-bottom: 10px;">
+  <div class="row" style="margin-bottom: 40px;">
     <div class="col-12">
       <img src="{{ site.baseurl }}/airline-passenger-satisfaction/img.jpg" alt="Aircraft" class="img-fluid" style="max-width: 100%; width: 700px; display: block;">
     </div>
@@ -37,8 +37,23 @@ permalink: /portfolio/houston-food-bank-distribution/
   
 <!-- ------------------------------------------- Deliverables ------------------------------------------- -->
 
+<div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Project Team and My Role</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Team: 5 members</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 20px;">I created and designed presentation slides, wrote VBA code, created macros, and developed the user interface (UI) for the Excel workbook.</div>
+
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Presentation Slides</div>
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Demonstration Video</div>
+<div style="text-align: center; margin-bottom: 20px;">
+  <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/lgAWVUawKkE" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Excel Workbook</div>
