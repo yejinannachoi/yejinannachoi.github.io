@@ -74,7 +74,7 @@ forms</li>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;"><strong>Output Variable:</strong></div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">
     <ul>
-    <li>quality - a rating of the wine's quality, based on sensory data, score between 0 and 10.</li>
+    <li>quality - a rating of the wine's quality, based on sensory data (score between 0 and 10).</li>
     </ul>
 </div>
 
@@ -87,10 +87,10 @@ forms</li>
 <table style="width:100%; border-collapse: collapse; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px; text-align: center;">
     <tbody>
       <tr style="background-color: #f2f2f2;">
-        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Variable</th>
-        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Mean (M)</th>
-        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Median (Mdn)</th>
-        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Standard Deviation (s.d.)</th>
+        <td style="border: 1px solid #ddd; padding: 8px;">Variable</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Mean (M)</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Median (Mdn)</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Standard Deviation (s.d.)</td>
       </tr>
       <tr>
         <td style="border: 1px solid #ddd; padding: 8px;">fixed.acidity</td>
@@ -176,18 +176,20 @@ forms</li>
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Model Development</div>
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Multiple Linear Regression Model</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px; line-height: 1.6;"><em>quality</em>&nbsp;= β<sub>0</sub>&nbsp;+ β<sub>1</sub> <em>fixed.acidity</em>&nbsp;+ β<sub>2</sub> <em>volatile.acidity</em>&nbsp;+ β<sub>3</sub> <em>citric.acid</em>&nbsp;+ β<sub>4</sub> <em>residual.sugar</em>&nbsp;+ β<sub>5</sub> <em>chlorides</em>&nbsp;+ β<sub>6</sub> <em>free.sulfur.dioxide</em>&nbsp;+ β<sub>7</sub> <em>total.sulfur.dioxide</em>&nbsp;+ β<sub>8</sub> <em>pH</em>&nbsp;+ β<sub>9</sub> <em>sulphates</em>&nbsp;+ β<sub>10</sub> <em>alcohol</em>&nbsp;+ <em>u</em><sub>i</sub></div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px; line-height: 1.6;">
+  <em>quality</em>&ensp;= β<sub>0</sub>&ensp;+ β<sub>1</sub> <em>fixed.acidity</em>&ensp;+ β<sub>2</sub> <em>volatile.acidity</em>&ensp;+ β<sub>3</sub> <em>citric.acid</em>&ensp;+ β<sub>4</sub> <em>residual.sugar</em>&ensp;+ β<sub>5</sub> <em>chlorides</em>&ensp;+ β<sub>6</sub> <em>free.sulfur.dioxide</em>&ensp;+ β<sub>7</sub> <em>total.sulfur.dioxide</em>&ensp;+ β<sub>8</sub> <em>pH</em>&ensp;+ β<sub>9</sub> <em>sulphates</em>&ensp;+ β<sub>10</sub> <em>alcohol</em>&ensp;+ <em>u</em><sub>i</sub>
+</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Estimation Results</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 5px; line-height: 1.6;">
   <table style="width:100%; border-collapse: collapse; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px; text-align: center;">
     <tbody>
       <tr style="background-color: #f2f2f2;">
-        <th style="border: 1px solid #ddd; padding: 8px;">Variable</th>
-        <th style="border: 1px solid #ddd; padding: 8px;">Estimated Coefficient (β<sub>n</sub>)</th>
-        <th style="border: 1px solid #ddd; padding: 8px;">Standard Error (SE)</th>
-        <th style="border: 1px solid #ddd; padding: 8px;">t-value</th>
-        <th style="border: 1px solid #ddd; padding: 8px;">p-value</th>
+        <td style="border: 1px solid #ddd; padding: 8px;">Variable</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Estimated Coefficient (β<sub>n</sub>)</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Standard Error (SE)</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">t-value</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">p-value</td>
       </tr>
       <tr>
         <td style="border: 1px solid #ddd; padding: 8px;">intercept</td>
