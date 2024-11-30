@@ -58,14 +58,11 @@ permalink: /portfolio/airline-passenger-satisfaction/
 <!-- ------------------------------------------- Data Understanding ------------------------------------------- -->
 <hr>
 
-<div class="container">
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Data Understanding</div>
 <div class="row" style="margin-bottom: 10px;">
-  <div class="row" style="margin-bottom: 20px;">
-    <div class="col-12">
+<div>
   <img src="{{ site.baseurl }}/airline-passenger-satisfaction/kaggle.png" alt="Kaggle" class="img-fluid" style="max-width: 100%; width: 800px;">
-    </div>
-  </div>
+</div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;"><strong>Source: <a href="https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction" style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">Kaggle Public Dataset - Airline Passenger Satisfaction</a></strong></div>
 
@@ -78,7 +75,6 @@ permalink: /portfolio/airline-passenger-satisfaction/
     <li>The datasets include both categorical and numerical data such as passenger demographics, inflight and external services satisfaction levels, flight information, and satisfaction status.</li>
     <li><strong>Target Variable:</strong> satisfaction (1: satisfied, 0: dissatisfied or neutral).</li>
   </ul>
-</div>
 </div>
 
 <!-- ------------------------------------------- Exploratory Data Analysis ------------------------------------------- -->
