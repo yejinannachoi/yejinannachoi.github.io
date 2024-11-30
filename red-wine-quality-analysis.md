@@ -58,26 +58,121 @@ permalink: /portfolio/red-wine-quality-analysis/
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;"><strong>Input Variables:</strong></div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">
     <ul>
-      <li>fixed.acidity: the amount of fixed acids (non-volatile) in the wine</li>
-      <li>volatile.acidity: the amount of volatile acids (acetic acid) in the wine</li>
-      <li>citric.acid: the amount of citric acid in the wine</li>
-      <li>residual.sugar: the amount of residual sugar (unfermented sugar) in the wine</li>
-      <li>chlorides: the amount of salt in the wine</li>
-      <li>free.sulfur.dioxide: the amount of free form of sulfur dioxide in the wine</li>
-      <li>total.sulfur.dioxide: the total amount of sulfur dioxide in the wine, including both free and bound
+      <li>fixed.acidity - the amount of fixed acids (non-volatile) in the wine</li>
+      <li>volatile.acidity - the amount of volatile acids (acetic acid) in the wine</li>
+      <li>citric.acid - the amount of citric acid in the wine</li>
+      <li>residual.sugar - the amount of residual sugar (unfermented sugar) in the wine</li>
+      <li>chlorides - the amount of salt in the wine</li>
+      <li>free.sulfur.dioxide - the amount of free form of sulfur dioxide in the wine</li>
+      <li>total.sulfur.dioxide - the total amount of sulfur dioxide in the wine, including both free and bound
 forms</li>
-      <li>density: the density of the wine</li>
-      <li>pH: the pH level of the wine, on a scale from 0 (very acidic) to 14 (very basic)</li>
-      <li>sulphates: the amount of sulphates in the wine</li>
-      <li>alcohol: the alcohol content of the wine (in %)</li>
+      <li>density - the density of the wine</li>
+      <li>pH - the pH level of the wine, on a scale from 0 (very acidic) to 14 (very basic)</li>
+      <li>sulphates - the amount of sulphates in the wine</li>
+      <li>alcohol - the alcohol content of the wine (in %)</li>
   </ul>
 </div>
 
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;"><strong>Input Variables:</strong></div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;"><strong>Output Variable:</strong></div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">
     <ul>
-    <li>quality: a rating of the wine's quality, based on sensory data, score between 0 and 10.</li>
+    <li>quality - a rating of the wine's quality, based on sensory data, score between 0 and 10.</li>
     </ul>
 </div>
+
+<!-- ------------------------------------------- Data Exploration ------------------------------------------- -->
+
+<div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold;">Data Exploration</div>
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Descriptive Statistics</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">
+<table style="width:100%; border-collapse: collapse; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">
+    <thead>
+      <tr style="background-color: #f2f2f2;">
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Variable</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Mean (M)</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Median (Mdn)</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Standard Deviation (s.d.)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px;">fixed.acidity</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">8.32</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">7.90</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">1.74</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px;">volatile.acidity</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">0.53</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">0.52</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">0.18</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px;">citric.acid</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">0.27</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">0.26</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">0.19</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px;">residual.sugar</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">2.54</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">2.20</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">1.41</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px;">chlorides</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">8.75 × 10<sup>-2</sup></td>
+        <td style="border: 1px solid #ddd; padding: 8px;">7.90 × 10<sup>-2</sup></td>
+        <td style="border: 1px solid #ddd; padding: 8px;">4.71 × 10<sup>-2</sup></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px;">free.sulfur.dioxide</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">15.87</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">14.00</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">10.46</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px;">total.sulfur.dioxide</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">46.47</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">38.00</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">32.90</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px;">density</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">9.97 × 10<sup>-1</sup></td>
+        <td style="border: 1px solid #ddd; padding: 8px;">9.97 × 10<sup>-1</sup></td>
+        <td style="border: 1px solid #ddd; padding: 8px;">1.89 × 10<sup>-3</sup></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px;">pH</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">3.31</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">3.31</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">0.15</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px;">sulphates</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">0.66</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">0.62</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">0.17</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px;">alcohol</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">10.42</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">10.20</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">1.07</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px;">quality</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">5.64</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">6.00</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">0.81</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Correlation Matrix</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">A correlation analysis was conducted to assess the relationship between each variable and wine quality. Among different regressors, density was removed as it is highly correlated with fixed.acidity (-0.79) and alcohol (0.76).</div>
+
 
 
