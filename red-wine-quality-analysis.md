@@ -346,12 +346,12 @@ forms</li>
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Model Evaluation</div>
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Metrics</div>
-<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 15px;">R-Squared = 0.36</div>
-<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 15px;">36% of variability in wine quality is explained by the independent variables.</div>
-<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 15px;">Adjusted R-Squared = 0.36</div>
-<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 15px;">Residual Standard Error (SE): 0.65</div>
-<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 15px;">The average deviation between the observed data points and the fitted regression line is 0.65 units.</div>
-<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 20px;">F-Statistic: 89.43 (<em>p</em> &lt; 2.20 × 10<sup>-16</sup>)</div>
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 5px;">R-Squared = 0.36</div>
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 15px;">36% of variability in wine quality is explained by the independent variables.</div>
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 15px;">Adjusted R-Squared = 0.36</div>
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 5px;">Residual Standard Error (SE): 0.65</div>
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 15px;">The average deviation between the observed data points and the fitted regression line is 0.65 units.</div>
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">F-Statistic: 89.43 (<em>p</em> &lt; 2.20 × 10<sup>-16</sup>)</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Residuals</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">The residuals represent the differences between the observed and predicted wine quality scores.</div>
