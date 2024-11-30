@@ -29,7 +29,7 @@ permalink: /portfolio/airline-passenger-satisfaction/
   </div>
 
   <!-- Image Section -->
-  <div class="row">
+  <div class="row" style="margin-bottom: 20px;">
     <div class="col-12">
       <img src="{{ site.baseurl }}/airline-passenger-satisfaction/img.jpg" alt="Aircraft" class="img-fluid" style="max-width: 100%; width: 700px; display: block;">
     </div>
@@ -60,9 +60,11 @@ permalink: /portfolio/airline-passenger-satisfaction/
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Data Understanding</div>
 <div class="row" style="margin-bottom: 10px;">
-<div>
+  <div class="row" style="margin-bottom: 20px;">
+    <div class="col-12">
   <img src="{{ site.baseurl }}/airline-passenger-satisfaction/kaggle.png" alt="Kaggle" class="img-fluid" style="max-width: 100%; width: 800px;">
-</div>
+    </div>
+  </div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;"><strong>Source: <a href="https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction" style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">Kaggle Public Dataset - Airline Passenger Satisfaction</a></strong></div>
 
