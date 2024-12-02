@@ -43,7 +43,7 @@ permalink: /portfolio/shark-tank-deal-prediction/
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Introduction</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Project Goal</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">On ABC’s Shark Tank, entrepreneurs have the opportunity to obtain investments for their growing companies from a panel of experienced investors, or sharks. The goal of this project is to analyze the factors that influence whether these entrepreneurs reach a deal with one of the sharks in the panel. Uncovering the factors that most heavily influence an entrepreneur’s success in bargaining with the sharks would allow us to predict whether a company will successfully secure a deal and consequently, offer insights into trends for emerging markets.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">On ABC’s Shark Tank, entrepreneurs have the opportunity to obtain investments for their growing companies from a panel of experienced investors, or sharks. The goal of this project is to analyze the factors that influence whether these entrepreneurs reach a deal with one of the sharks in the panel using data from previous Shark Tank pitches. Uncovering the factors that most heavily influence an entrepreneur’s success in bargaining with the sharks would allow us to predict whether a company will successfully secure a deal and offer insights into trends for emerging markets.</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Implications</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">By analyzing the factors that influence successful negotiations on Shark Tank, this project provides actionable insights that benefit multiple stakeholders:</div>
@@ -55,10 +55,9 @@ permalink: /portfolio/shark-tank-deal-prediction/
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Investors can use data-driven insights from this analysis to identify emerging trends and new market opportunities. Understanding the factors that lead to successful deals, such as specific industry patterns or regional strengths, enables investors to make more informed and effective investment decisions, reducing risk and increasing returns.</div>
 
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;"><strong>Drive Economic Growth</strong></div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Businesses that secure investments often generate jobs, revenue, and economic activity. By identifying the factors that lead to successful deals, the project contributes to broader economic development goals. Policymakers can leverage these insights to design initiatives that promote entrepreneurship in underrepresented industries and regions.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Businesses that secure investments generate jobs, revenue, and economic activity. By identifying the factors that lead to successful deals, this project contributes to broader economic development goals. Policymakers can leverage these insights to design initiatives that promote entrepreneurship in underrepresented industries and regions.</div>
 
-
-<div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Questions</div>
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Questions</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">
   <ul>
         <li>What types of businesses are most successful in securing deals from the Sharks?</li>
@@ -96,15 +95,16 @@ permalink: /portfolio/shark-tank-deal-prediction/
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;"><strong>Independent Variables:</strong></div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">
     <ul>
-        <li>description - a brief description of the company and its products or services</li>
-        <li>episode - the episode of the show</li>
-        <li>category - the industry or sector in which the company operates, can impact the company’s growth potential and the level of competition</li>
-        <li>entrepreneurs - the name(s) of the entrepreneur(s)</li>
         <li><strong>location</strong> - the city and state where the company is based, can impact the company’s market reach, regulatory environment, and access to resources such as talent</li>
         <li><strong>website</strong> - the company's website URL, can impact the company’s ability to provide easily accessible, important information on products or services to customers</li>
         <li><strong>askedfor</strong> - the amount of money that the entrepreneur(s) asked for in exchange for a stake in their company</li>
         <li><strong>exchangeforstake</strong> - the percentage of the company's ownership that the entrepreneur(s) offered in exchange for the investment</li>
         <li><strong>valuation</strong> - the valuation of the company at the time of its appearance on the show</li>
+        <li><strong>multiple_entrepreneurs</strong> - whether or not there are multiple entrepreneurs, can impact the company’s leadership structure and decision-making process</li>
+        <li>description - a brief description of the company and its products or services</li>
+        <li>episode - the episode of the show</li>
+        <li>category - the industry or sector in which the company operates, can impact the company’s growth potential and the level of competition</li>
+        <li>entrepreneurs - the name(s) of the entrepreneur(s)</li>
         <li>season - the season of the show</li>
         <li>shark1 - the name of the 1st shark</li>
         <li>shark2 - the name of the 2nd shark</li>
@@ -113,7 +113,6 @@ permalink: /portfolio/shark-tank-deal-prediction/
         <li>shark5 - the name of the 5th shark</li>
         <li>title - the name of the company</li>
         <li>episode_season - the episode and season of the show</li>
-        <li><strong>multiple_entrepreneurs</strong> - whether or not there are multiple entrepreneurs, can impact the company’s leadership structure and decision-making process</li>
     </ul>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;"><em>Bolded variables were used for classification tasks, while the rest were excluded due to their lack of relevance to the target variable.</em></div>
