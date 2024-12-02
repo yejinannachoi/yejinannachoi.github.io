@@ -34,4 +34,59 @@ permalink: /portfolio/shark-tank-deal-prediction/
   </div>
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">Photo by <a href="https://pixabay.com/photos/business-handshake-business-deal-7111770/" style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">tungnguyen0905 on Pixabay</a></div>
-  
+
+
+
+
+
+
+<!-- ------------------------------------------- Dataset Overview ------------------------------------------- -->
+<hr>
+
+<div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Dataset Overview</div>
+<div class="row" style="margin-bottom: 10px;">
+<div>
+      <img src="{{ site.baseurl }}/shark-tank-deal-prediction/kaggle.png" alt="Kaggle" class="img-fluid" style="max-width: 100%; width: 800px;">
+</div>
+</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">Source: <strong><a href="https://www.kaggle.com/datasets/ulrikthygepedersen/shark-tank-companies" style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">Kaggle Public Dataset - Shark Tank Companies</a></strong></div>
+
+<div style="margin-top: 10px;"></div>
+
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">The dataset includes 495 rows and 15 columns, representing pitches aired on Shark Tank.</div>
+
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;"><strong>Dependent Variable:</strong></div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">
+    <ul>
+    <li>deal - whether or not the company received a deal (target variable)</li>
+    </ul>
+</div>
+
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;"><strong>Independent Variables:</strong></div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">
+    <ul>
+        <li><strong>deal</strong> - whether or not the company received a deal (target variable)</li>
+        <li>description - a brief description of the company and its products or services</li>
+        <li>episode - the episode of the show</li>
+        <li>category - the industry or sector in which the company operates, can impact the company’s growth potential and the level of competition</li>
+        <li>entrepreneurs - the name(s) of the entrepreneur(s)</li>
+        <li><strong>location</strong> - the city and state where the company is based, can impact the company’s market reach, regulatory environment, and access to resources such as talent</li>
+        <li><strong>website</strong> - the company's website URL, can impact the company’s ability to provide easily accessible, important information on products or services to customers</li>
+        <li><strong>askedfor</strong> - the amount of money that the entrepreneur(s) asked for in exchange for a stake in their company</li>
+        <li><strong>exchangeforstake</strong> - the percentage of the company's ownership that the entrepreneur(s) offered in exchange for the investment</li>
+        <li><strong>valuation</strong> - the valuation of the company at the time of its appearance on the show</li>
+        <li>season - the season of the show</li>
+        <li>shark1 - the name of the 1st shark</li>
+        <li>shark2 - the name of the 2nd shark</li>
+        <li>shark3 - the name of the 3rd shark</li>
+        <li>shark4 - the name of the 4th shark</li>
+        <li>shark5 - the name of the 5th shark</li>
+        <li>title - the name of the company</li>
+        <li>episode_season - the episode and season of the show</li>
+        <li><strong>multiple_entrepreneurs</strong> - whether or not there are multiple entrepreneurs, can impact the company’s leadership structure and decision-making process</li>
+    </ul>
+</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">Bolded variables were used for classification tasks, while the remaining variables were excluded due to their lack of relevance to the target variable.</div>
+
+
+
