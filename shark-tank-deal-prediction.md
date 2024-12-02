@@ -40,8 +40,13 @@ permalink: /portfolio/shark-tank-deal-prediction/
 <!-- ------------------------------------------- Introduction  ------------------------------------------- -->
 <hr>
 
+<div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Introduction</div>
+
+<div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Project Goal</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">On ABC’s Shark Tank, entrepreneurs have the opportunity to obtain investments for their growing companies from a panel of experienced investors, or sharks. The goal of this project is to analyze the factors that influence whether these entrepreneurs reach a deal with one of the sharks in the panel. Uncovering the factors that most heavily influence an entrepreneur’s success in bargaining with the sharks would allow us to predict whether a company will successfully secure a deal and consequently, offer insights into trends for emerging markets.</div>
+
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Implications</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The primary objective of this analysis is to uncover the factors contributing to successful negotiations between entrepreneurs and the Sharks on Shark Tank.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">By analyzing the factors that influence successful negotiations on Shark Tank, this project provides actionable insights that benefit multiple stakeholders:</div>
 
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;"><strong>Improve Entrepreneurship</strong></div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Entrepreneurs can gain a deeper understanding of the types of businesses, industries, and characteristics most likely to attract investors. These insights allow entrepreneurs to refine their business models and align their business strategies with investor expectations, increasing their chances of securing funding.</div>
