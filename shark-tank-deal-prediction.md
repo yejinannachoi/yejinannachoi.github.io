@@ -19,13 +19,9 @@ permalink: /portfolio/shark-tank-deal-prediction/
     <div class="col-12">
       <div class="tags-container" style="display: flex; gap: 10px; flex-wrap: wrap;">
         <span class="tag python">Python</span>
-        <span class="tag classification">Classification</span>
-        <span class="tag logistic-regression">Logistic Regression</span>
-        <span class="tag decision-tree">Decision Tree</span>
-        <span class="tag knn">kNN</span>
-        <span class="tag random-forest">Random Forest</span>
-        <span class="tag support-vector-machine">Support Vector Machine</span>
-        <span class="tag multi-layer-perceptron">Multi-Layer Perceptron</span>
+        <span class="tag machine-learning">Machine Learning</span>
+        <span class="tag classification-models">Classification Models</span>
+        <span class="tag supervised-learning">Supervised Learning</span>
       </div>
     </div>
   </div>
@@ -33,9 +29,9 @@ permalink: /portfolio/shark-tank-deal-prediction/
   <!-- Image Section -->
   <div class="row" style="margin-bottom: 10px;">
     <div class="col-12">
-      <img src="{{ site.baseurl }}/airline-passenger-satisfaction/img.jpg" alt="Aircraft" class="img-fluid" style="max-width: 100%; width: 700px; display: block;">
+      <img src="{{ site.baseurl }}/shark-tank-deal-prediction/img.jpg" alt="Business" class="img-fluid" style="max-width: 100%; width: 700px; display: block;">
     </div>
   </div>
 </div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">Photo by <a href="https://pixabay.com/photos/aircraft-cabin-airplane-cabin-5535467" style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">juno1412 on Pixabay</a></div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">Photo by <a href="https://pixabay.com/photos/business-handshake-business-deal-7111770/" style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">tungnguyen0905 on Pixabay</a></div>
   
