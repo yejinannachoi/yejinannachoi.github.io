@@ -84,7 +84,7 @@ forms</li>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;"><strong>Output Variable:</strong></div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">
     <ul>
-    <li>quality - a rating of the wine's quality, based on sensory data (score between 0 and 10).</li>
+    <li>quality - a rating of the wine's quality, based on sensory data (score between 0 and 10)</li>
     </ul>
 </div>
 
