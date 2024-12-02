@@ -38,12 +38,11 @@ permalink: /portfolio/shark-tank-deal-prediction/
 
 
 <!-- ------------------------------------------- Introduction  ------------------------------------------- -->
-<hr>
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Introduction</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Project Goal</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">On ABC’s Shark Tank, entrepreneurs have the opportunity to obtain investments for their growing companies from a panel of experienced investors, or sharks. The goal of this project is to analyze the factors that influence whether these entrepreneurs reach a deal with one of the sharks in the panel using data from previous Shark Tank pitches. Uncovering the factors that most heavily influence an entrepreneur’s success in bargaining with the sharks would allow us to predict whether a company will successfully secure a deal and offer insights into trends for emerging markets.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">On ABC’s Shark Tank, entrepreneurs have the opportunity to obtain investments for their growing companies from a panel of experienced investors, or sharks. The goal of this project is to analyze the factors that influence whether these entrepreneurs reach a deal with one of the sharks using data from previous Shark Tank pitches. Uncovering the factors that most heavily influence an entrepreneur’s success in bargaining with the sharks would allow stakeholders to predict whether a company will successfully secure a deal and offer insights into trends for emerging markets.</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Implications</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">By analyzing the factors that influence successful negotiations on Shark Tank, this project provides actionable insights that benefit multiple stakeholders:</div>
@@ -51,11 +50,11 @@ permalink: /portfolio/shark-tank-deal-prediction/
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;"><strong>Improve Entrepreneurship</strong></div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Entrepreneurs can gain a deeper understanding of the types of businesses, industries, and characteristics most likely to attract investors. These insights allow entrepreneurs to refine their business models and align their business strategies with investor expectations, increasing their chances of securing funding.</div>
 
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;"><strong>Inform Investment Decisions</strong></div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Investors can use data-driven insights from this analysis to identify emerging trends and new market opportunities. Understanding the factors that lead to successful deals, such as specific industry patterns or regional strengths, enables investors to make more informed and effective investment decisions, reducing risk and increasing returns.</div>
-
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;"><strong>Drive Economic Growth</strong></div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Businesses that secure investments generate jobs, revenue, and economic activity. By identifying the factors that lead to successful deals, this project contributes to broader economic development goals. Policymakers can leverage these insights to design initiatives that promote entrepreneurship in underrepresented industries and regions.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Businesses that secure investments generate jobs, revenue, and economic activity. By identifying the factors that lead to successful deals, this project contributes to broader economic development goals. Policymakers can leverage these insights to design initiatives that promote entrepreneurship in underrepresented industries and regions.</div>
+
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;"><strong>Inform Investment Decisions</strong></div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Investors can use data-driven insights from this project to identify emerging trends and new market opportunities. Understanding the factors that lead to successful deals, such as specific industry patterns or regional strengths, enables investors to make more informed and effective investment decisions, reducing risk and increasing returns.</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Questions</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">
