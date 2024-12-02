@@ -37,7 +37,60 @@ permalink: /portfolio/shark-tank-deal-prediction/
 
 
 
+<!-- ------------------------------------------- Implications ------------------------------------------- -->
+<hr>
 
+<div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Implications</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">The primary objective of this analysis is to uncover the factors contributing to successful negotiations between entrepreneurs and the Sharks on Shark Tank.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">
+<ul>
+        <li><strong>Improving Entrepreneurship</strong>
+            <ul>
+                <li>Entrepreneurs gain actionable insights into the characteristics of pitches most likely to secure investments, such as industry focus, funding requests, and team dynamics.</li>
+                <li>Understanding trends in successful businesses can help entrepreneurs refine their pitches and position their companies for growth and scalability.</li>
+            </ul>
+        </li>
+        <li><strong>Informing Investment Decisions</strong>
+            <ul>
+                <li>Investors can leverage the findings to identify the industries, regions, and business models with higher success rates.</li>
+                <li>By recognizing patterns in Shark Tank deals, investors can make more informed decisions, develop effective strategies, and align their portfolios with emerging market trends.</li>
+            </ul>
+        </li>
+        <li><strong>Enhancing Negotiation Success</strong>
+            <ul>
+                <li>Factors such as team size and location influence the likelihood of deal success, providing entrepreneurs with insights to optimize their approach and strengthen their proposals.</li>
+                <li>This knowledge can encourage entrepreneurs to address potential barriers and highlight deal-attracting aspects in their pitches.</li>
+            </ul>
+        </li>
+        <li><strong>Supporting Economic Growth</strong>
+            <ul>
+                <li>Analyzing patterns in successful businesses identifies emerging markets and industries that are ripe for growth, helping policymakers craft initiatives to support entrepreneurship.</li>
+                <li>Investments made in promising companies can lead to job creation, innovation, and regional economic development.</li>
+            </ul>
+        </li>
+        <li><strong>Expanding the Investment Landscape</strong>
+            <ul>
+                <li>By understanding which factors consistently lead to success, the insights can encourage broader investment participation and foster collaborations between entrepreneurs and investors.</li>
+                <li>Emerging markets and underrepresented industries gain visibility, driving innovation and diversification in entrepreneurial ecosystems.</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+<!-- ------------------------------------------- Questions ------------------------------------------- -->
+<hr>
+
+<div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Questions</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">
+  <ul>
+        <li><strong>Business Success:</strong> What types of businesses are most successful in securing deals from the Sharks?</li>
+        <li><strong>Shark Preferences:</strong> Which Sharks are most likely to invest in particular industries or types of businesses?</li>
+        <li><strong>Negotiation Factors:</strong> What specific factors contribute to successful negotiations between entrepreneurs and the Sharks?</li>
+        <li><strong>Team Dynamics:</strong> How does the number of entrepreneurs impact the likelihood of securing a deal?</li>
+        <li><strong>Geographical Influence:</strong> How does the location of entrepreneurs and their businesses affect investment decisions?</li>
+        <li><strong>Regional Trends:</strong> Are there patterns in the types of products or businesses pitched by entrepreneurs from different regions?</li>
+    </ul>
+</div>
 
 
 <!-- ------------------------------------------- Dataset Overview ------------------------------------------- -->
