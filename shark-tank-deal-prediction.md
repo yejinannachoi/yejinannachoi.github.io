@@ -37,18 +37,20 @@ permalink: /portfolio/shark-tank-deal-prediction/
 
 
 
-<!-- ------------------------------------------- Implications ------------------------------------------- -->
+<!-- ------------------------------------------- Introduction  ------------------------------------------- -->
 <hr>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Implications</div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">The primary objective of this analysis is to uncover the factors contributing to successful negotiations between entrepreneurs and the Sharks on Shark Tank.</div>
+
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;"><strong>Improve Entrepreneurship</strong></div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Entrepreneurs can gain a deeper understanding of the types of businesses, industries, and characteristics most likely to attract investors. These insights allow entrepreneurs to refine their business models and align their business strategies with investor expectations, increasing their chances of securing funding.</div>
+
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;"><strong>Inform Investment Decisions</strong></div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">By identifying industries, regions, and business models with high success rates, investors can focus on ventures more likely to yield returns.</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Insights into the preferences of individual Sharks and investment trends allow for more tailored and effective investment strategies.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Investors can use data-driven insights from this analysis to identify emerging trends and new market opportunities. Understanding the factors that lead to successful deals, such as specific industry patterns or regional strengths, enables investors to make more informed and effective investment decisions, reducing risk and increasing returns.</div>
 
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;"><strong>Drive Economic Growth</strong></div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Businesses that secure investments often generate jobs, revenue, and economic activity. By identifying the factors that lead to successful deals, the project contributes to broader economic development goals.</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Policymakers can leverage these insights to design initiatives that promote entrepreneurship in underrepresented industries and regions.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Businesses that secure investments often generate jobs, revenue, and economic activity. By identifying the factors that lead to successful deals, the project contributes to broader economic development goals. Policymakers can leverage these insights to design initiatives that promote entrepreneurship in underrepresented industries and regions.</div>
 
 
 <div style="font-size:25px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Questions</div>
@@ -109,7 +111,7 @@ permalink: /portfolio/shark-tank-deal-prediction/
         <li><strong>multiple_entrepreneurs</strong> - whether or not there are multiple entrepreneurs, can impact the company’s leadership structure and decision-making process</li>
     </ul>
 </div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;"><em>Bolded variables were used for classification tasks, while the remaining variables were excluded due to their lack of relevance to the target variable.</em></div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;"><em>Bolded variables were used for classification tasks, while the rest were excluded due to their lack of relevance to the target variable.</em></div>
 
 
 
