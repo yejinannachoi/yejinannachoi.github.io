@@ -35,4 +35,4 @@ permalink: /portfolio/local-cafe-sales-data-analysis/
 </div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">Photo by <a href="https://pixabay.com/photos/coffee-cup-cup-of-coffee-drink-2235370/" style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">coyot on Pixabay</a></div>
 
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;"><strong><a href="https://github.com/yejinannachoi/local-cafe-menu-optimization" style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">Link to the GitHub repository</a></strong> with all the SQL work and the final deliverable. The final deliverable will be available in English shortly.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;"><strong><a href="https://github.com/yejinannachoi/local-cafe-menu-optimization" style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">Link to the GitHub repository</a></strong> with all the SQL work and the final deliverable.</div>
