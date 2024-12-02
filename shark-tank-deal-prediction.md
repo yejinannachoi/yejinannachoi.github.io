@@ -53,19 +53,18 @@ permalink: /portfolio/shark-tank-deal-prediction/
 
 <div style="margin-top: 10px;"></div>
 
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">The dataset includes 495 rows and 15 columns, representing pitches aired on Shark Tank.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">The dataset includes 495 rows and 19 columns, with each row representing a pitch previously aired on Shark Tank.</div>
 
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;"><strong>Dependent Variable:</strong></div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">
     <ul>
-    <li>deal - whether or not the company received a deal (target variable)</li>
+    <li><strong>deal</strong> - whether or not the company received a deal (target variable)</li>
     </ul>
 </div>
 
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;"><strong>Independent Variables:</strong></div>
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">
     <ul>
-        <li><strong>deal</strong> - whether or not the company received a deal (target variable)</li>
         <li>description - a brief description of the company and its products or services</li>
         <li>episode - the episode of the show</li>
         <li>category - the industry or sector in which the company operates, can impact the company’s growth potential and the level of competition</li>
@@ -86,7 +85,7 @@ permalink: /portfolio/shark-tank-deal-prediction/
         <li><strong>multiple_entrepreneurs</strong> - whether or not there are multiple entrepreneurs, can impact the company’s leadership structure and decision-making process</li>
     </ul>
 </div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">Bolded variables were used for classification tasks, while the remaining variables were excluded due to their lack of relevance to the target variable.</div>
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;"><em>Bolded variables were used for classification tasks, while the remaining variables were excluded due to their lack of relevance to the target variable.</em></div>
 
 
 
