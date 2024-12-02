@@ -57,7 +57,7 @@ permalink: /portfolio/shark-tank-deal-prediction/
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">Investors can use data-driven insights from this project to identify emerging trends and new market opportunities. Understanding the factors that lead to successful deals, such as specific industry patterns or regional strengths, enables investors to make more informed and effective investment decisions, reducing risk and increasing returns.</div>
 
 <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Questions</div>
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">
   <ul>
         <li>What types of businesses are most successful in securing deals from the Sharks?</li>
         <li>Which Sharks are most likely to invest in particular industries or types of businesses?</li>
@@ -67,6 +67,8 @@ permalink: /portfolio/shark-tank-deal-prediction/
         <li>Are there patterns in the types of products or businesses pitched by entrepreneurs from different regions?</li>
     </ul>
 </div>
+
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">The initial hypothesis is that factors like the company’s category (i.e. industry), location, and multiple_entrepreneurs are strong predictors as to whether a company is able to reach a deal.</div>
 
 
 <!-- ------------------------------------------- Dataset Overview ------------------------------------------- -->
