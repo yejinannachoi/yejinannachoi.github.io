@@ -28,11 +28,11 @@ permalink: /portfolio/
     </div>
 
     <!-- Column 2 -->
-    <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4" style="margin-bottom: 10px;">
-      <img src="{{ site.baseurl }}/local-cafe-sales-data-analysis/img.jpg" class="img-fluid mb-3" style="max-height: 150px; object-fit: cover;">
-      <div style="font-size:20px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Local Cafe Sales Data Analysis</div>
+    <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4" style="margin-bottom: 20px;">
+      <img src="{{ site.baseurl }}/local-cafe-sales-data-analysis/img.jpg" class="img-fluid mb-3" style="max-height: 150px; object-fit: cover; margin-bottom: 10px;">
+      <div style="font-size:18px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Local Cafe Sales Data Analysis</div>
       <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content.</div>
-      <a href="{{ site.baseurl }}/local-cafe-sales-data-analysis/" class="btn btn-portfolio">Learn more</a>
+      <a href="{{ site.baseurl }}/portfolio/local-cafe-sales-data-analysis/" class="btn btn-portfolio">Learn more</a>
     </div>
 
     <!-- Column 3 -->
