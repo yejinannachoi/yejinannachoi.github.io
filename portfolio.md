@@ -9,7 +9,7 @@ permalink: /portfolio/
   <!-- Title Section -->
   <div class="row justify-content-center">
     <div class="col-lg-8 text-center">
-      <div style="font-size:30px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 40px;">
+      <div style="font-size:40px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 40px;">
         Portfolio
       </div>
     </div>
@@ -29,8 +29,8 @@ permalink: /portfolio/
 
     <!-- Column 2 -->
     <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
-      <img src="path-to-your-image-2.jpg" alt="Feature 2 Image" class="img-fluid mb-3" style="border-radius: 8px; max-height: 150px; object-fit: cover;">
-      <h3>Responsive layouts</h3>
+      <img src="{{ site.baseurl }}/local-cafe-sales-data-analysis/img.jpg" class="img-fluid mb-3" style="border-radius: 8px; max-height: 150px; object-fit: cover;">
+      <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">Local</div>
       <p>Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content.</p>
       <a href="#" class="btn btn-portfolio">Learn more</a>
     </div>
