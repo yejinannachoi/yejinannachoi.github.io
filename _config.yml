@@ -102,6 +102,7 @@ nav_item:
   - { url: '/', text: 'Home' }
   - { url: '/cv', text: 'CV' }
   - { url: '/portfolio', text: 'Portfolio', sub_items: [
+      { url: '/portfolio/mlb-gold-glove-award-prediction', text: 'MLB Gold Glove Award Prediction' },
       { url: '/portfolio/local-cafe-sales-data-analysis', text: 'Local Cafe Sales Data Analysis' },
       { url: '/portfolio/houston-food-bank-distribution', text: 'Houston Food Bank Distribution' },
       { url: '/portfolio/shark-tank-deal-prediction', text: 'Shark Tank Deal Prediction' },
