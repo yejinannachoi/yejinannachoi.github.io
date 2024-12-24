@@ -4,11 +4,6 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
----
-layout: default
-title: Portfolio
----
-
 <div class="container" style="margin-top: 50px;">
 
   <!-- Title Section -->
