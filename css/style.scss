@@ -423,43 +423,25 @@ nav ul .dropdown-menu {
     Portfolio Features
 --------------------------------------------------------------*/
 
-/* Portfolio Section */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.mb-4 {
-  margin-bottom: 1.5rem;
-}
-
-.img-fluid {
-  width: 100%;
-  height: auto;
-}
-
 .btn-portfolio {
+  padding: 8px 16px;
+  border: 1px solid #0a0a0a;
+  font-size: 14px;
+  color: #0a0a0a;
+  background-color: transparent;
+  text-align: center;
   text-decoration: none;
-  color: black;
-  background-color: #4f4f4f; /* Dark gray */
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-weight: bold;
+  display: inline-block;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .btn-portfolio:hover {
-  background-color: #6f6f6f; /* Slightly lighter gray */
-  transform: scale(1.05);
+  background-color: #e0e0e0; 
 }
 
 .btn-portfolio:active {
-  background-color: #a9a9a9; /* Light gray */
-  transform: scale(1);
+  background-color: #c0c0c0;
+  transform: scale(0.98);
 }
 
 /*--------------------------------------------------------------
