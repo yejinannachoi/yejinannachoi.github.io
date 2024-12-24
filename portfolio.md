@@ -5,7 +5,7 @@ permalink: /portfolio/
 ---
 
 <div class="container" style="margin-top: 50px;">
-
+  
   <!-- Title Section -->
   <div class="row justify-content-center">
     <div class="col-12 text-center">
@@ -14,7 +14,6 @@ permalink: /portfolio/
       </div>
     </div>
   </div>
-</div>
 
   <!-- Portfolio Items -->
   <div class="row justify-content-between">
