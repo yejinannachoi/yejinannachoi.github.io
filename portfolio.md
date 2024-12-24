@@ -7,16 +7,16 @@ permalink: /portfolio/
 <div class="container" style="margin-top: 50px;">
   
   <!-- Title Section -->
-  <div class="row">
-    <div class="col-12 text-center">
-      <div style="font-size:30px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 20px;">
+  <div class="row justify-content-center">
+    <div class="col-lg-8 text-center">
+      <div style="font-size:30px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 40px;">
         Portfolio
       </div>
     </div>
   </div>
 
   <!-- Portfolio Items -->
-  <div class="row justify-content-between">
+  <div class="row justify-content-center">
     <!-- Column 1 -->
     <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
       <img src="path-to-your-image-1.jpg" alt="Feature 1 Image" class="img-fluid mb-3" style="border-radius: 8px; max-height: 150px; object-fit: cover;">
@@ -42,7 +42,7 @@ permalink: /portfolio/
     </div>
   </div>
 
-  <div class="row justify-content-between">
+  <div class="row justify-content-center">
     <!-- Column 4 -->
     <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
       <img src="path-to-your-image-4.jpg" alt="Feature 4 Image" class="img-fluid mb-3" style="border-radius: 8px; max-height: 150px; object-fit: cover;">
@@ -68,4 +68,4 @@ permalink: /portfolio/
     </div>
   </div>
   
-  </div>
+</div>
