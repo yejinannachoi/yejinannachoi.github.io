@@ -422,20 +422,23 @@ nav ul .dropdown-menu {
 /*--------------------------------------------------------------
     Portfolio Features
 --------------------------------------------------------------*/
+/* Features Section */
 #features {
   text-align: center;
   padding: 50px 0;
 }
 
 #features .container {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
-  justify-content: center;
-  gap: 20px;
   flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
 }
 
 .feature {
-  flex: 1;
+  flex: 1 1 300px;
   max-width: 300px;
   text-align: center;
 }
@@ -444,31 +447,41 @@ nav ul .dropdown-menu {
   width: 100%;
   height: auto;
   margin-bottom: 20px;
-  border-radius: 8px;
 }
 
-.feature h3 {
+#features h3 {
   margin-bottom: 10px;
   font-size: 20px;
-}
-
-.feature p {
-  margin-bottom: 20px;
-  color: #0e76a8;
-}
-
-.feature .btn {
-  text-decoration: none;
-  color: #0e76a8;
-  background: black;
-  padding: 10px 20px;
-  border-radius: 5px;
   font-weight: bold;
 }
 
-.feature .btn:hover {
-  background: #333;
+#features p {
+  margin-bottom: 20px;
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
 }
+
+#features .btn {
+  text-decoration: none;
+  color: black;
+  background: #4f4f4f;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#features .btn:hover {
+  background: #6f6f6f;
+  transform: scale(1.05);
+}
+
+#features .btn:active {
+  background: #a9a9a9;
+  transform: scale(1);
+}
+
 
 /*--------------------------------------------------------------
 	Code formatting
