@@ -19,7 +19,7 @@ permalink: /portfolio/
     <!-- Column 1 -->
     <div class="col-lg-4 col-md-6 col-sm-12 text-center">
       <img src="path-to-your-image-1.jpg" alt="Feature 1 Image" class="img-fluid mb-3" style="border-radius: 8px; max-height: 150px; object-fit: cover;">
-      <div style="font-size: 18px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Super customizable</div>
+      <div style="font-size: 18px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">MLB Gold Glove Award Prediction</div>
       <div style="font-size: 16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter.</div>
       <a href="#" class="btn btn-portfolio">Learn more</a>
     </div>
@@ -35,7 +35,7 @@ permalink: /portfolio/
     <!-- Column 3 -->
     <div class="col-lg-4 col-md-6 col-sm-12 text-center">
       <img src="path-to-your-image-3.jpg" alt="Feature 3 Image" class="img-fluid mb-3" style="border-radius: 8px; max-height: 150px; object-fit: cover;">
-      <div style="font-size: 18px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">100% free</div>
+      <div style="font-size: 18px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Houston Food Bank Distribution</div>
       <div style="font-size: 16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!</div>
       <a href="#" class="btn btn-portfolio">Learn more</a>
     </div>
