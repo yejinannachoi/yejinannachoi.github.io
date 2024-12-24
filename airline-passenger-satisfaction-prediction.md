@@ -1,7 +1,7 @@
 ---
 layout: inner
-title: Airline Passenger Satisfaction
-permalink: /portfolio/airline-passenger-satisfaction/
+title: Airline Passenger Satisfaction Prediction
+permalink: /portfolio/airline-passenger-satisfaction-prediction/
 ---
 <div class="container" style="margin-top: 50px;">
 
