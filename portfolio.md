@@ -15,6 +15,8 @@ permalink: /portfolio/
     </div>
   </div>
 
+  </div>
+
   <!-- Portfolio Items -->
   <div class="row justify-content-center">
     <!-- Column 1 -->
@@ -67,5 +69,3 @@ permalink: /portfolio/
       <a href="#" class="btn btn-portfolio">Learn more</a>
     </div>
   </div>
-  
-</div>
