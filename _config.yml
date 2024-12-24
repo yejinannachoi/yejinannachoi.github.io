@@ -107,7 +107,7 @@ nav_item:
       { url: '/portfolio/houston-food-bank-inventory-optimization', text: 'Houston Food Bank Inventory Optimization' },
       { url: '/portfolio/shark-tank-deal-prediction', text: 'Shark Tank Deal Prediction' },
       { url: '/portfolio/red-wine-quality-analysis', text: 'Red Wine Quality Analysis' },
-      { url: '/portfolio/airline-passenger-satisfaction', text: 'Airline Passenger Satisfaction' }
+      { url: '/portfolio/airline-passenger-satisfaction-prediction', text: 'Airline Passenger Satisfaction Prediction' }
     ] 
     }
   - { url: '/contact', text: 'Contact' }
