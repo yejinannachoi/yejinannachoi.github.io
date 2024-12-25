@@ -3,7 +3,7 @@ layout: inner
 title: Portfolio
 permalink: /portfolio/
 ---
-<div class="container-fluid px-5" style="margin-top: 50px;">
+<div class="container-fluid px-5" style="margin-top: 30px;">
 
   <!-- Title Section -->
   <div class="row justify-content-center">
@@ -35,7 +35,7 @@ permalink: /portfolio/
     <!-- Column 3 -->
     <div class="col-lg-4 col-md-6 col-sm-12 text-center">
       <img src="path-to-your-image-3.jpg" alt="Feature 3 Image" class="img-fluid mb-3" style="border-radius: 8px; max-height: 150px; object-fit: cover;">
-      <div style="font-size: 18px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Houston Food Bank Distribution</div>
+      <div style="font-size: 18px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Houston Food Bank Inventory Optimization</div>
       <div style="font-size: 16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!</div>
       <a href="#" class="btn btn-portfolio">Learn more</a>
     </div>
@@ -45,7 +45,7 @@ permalink: /portfolio/
     <!-- Column 4 -->
     <div class="col-lg-4 col-md-6 col-sm-12 text-center">
       <img src="path-to-your-image-4.jpg" alt="Feature 4 Image" class="img-fluid mb-3" style="border-radius: 8px; max-height: 150px; object-fit: cover;">
-      <div style="font-size: 18px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Powerful tools</div>
+      <div style="font-size: 18px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Shark Tank Deal Prediction</div>
       <div style="font-size: 16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Leverage powerful tools and technologies to enhance your workflow.</div>
       <a href="#" class="btn btn-portfolio">Learn more</a>
     </div>
@@ -53,7 +53,7 @@ permalink: /portfolio/
     <!-- Column 5 -->
     <div class="col-lg-4 col-md-6 col-sm-12 text-center">
       <img src="path-to-your-image-5.jpg" alt="Feature 5 Image" class="img-fluid mb-3" style="border-radius: 8px; max-height: 150px; object-fit: cover;">
-      <div style="font-size: 18px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Community support</div>
+      <div style="font-size: 18px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Red Wine Quality Analysis</div>
       <div style="font-size: 16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Join a vibrant community for continuous learning and support.</div>
       <a href="#" class="btn btn-portfolio">Learn more</a>
     </div>
@@ -61,7 +61,7 @@ permalink: /portfolio/
     <!-- Column 6 -->
     <div class="col-lg-4 col-md-6 col-sm-12 text-center">
       <img src="path-to-your-image-6.jpg" alt="Feature 6 Image" class="img-fluid mb-3" style="border-radius: 8px; max-height: 150px; object-fit: cover;">
-      <div style="font-size: 18px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Easy to use</div>
+      <div style="font-size: 18px; font-family: 'Source Sans 3', sans-serif; font-weight: bold; margin-bottom: 10px;">Airline Passenger Satisfaction Prediction</div>
       <div style="font-size: 16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">Designed with simplicity and ease of use in mind for everyone.</div>
       <a href="#" class="btn btn-portfolio">Learn more</a>
     </div>
