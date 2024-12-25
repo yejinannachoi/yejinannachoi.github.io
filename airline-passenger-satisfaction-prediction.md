@@ -3,7 +3,7 @@ layout: inner
 title: Airline Passenger Satisfaction Prediction
 permalink: /portfolio/airline-passenger-satisfaction-prediction/
 ---
-<div class="container" style="margin-top: 20px;">
+<div class="container" style="margin-top: 10px;">
 
   <!-- Title Section -->
   <div class="row">
@@ -309,7 +309,7 @@ permalink: /portfolio/airline-passenger-satisfaction-prediction/
 
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;"><strong>Ethical Considerations:</strong> Since only basic passenger information is being collected for the predictive model, there are no major ethical concerns.</div>
 
-<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 20px;">
+<div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 10px;">
   <strong>Type 1 Error (False Positive):</strong> The risk of predicting that a passenger is dissatisfied when they are actually satisfied, which could lead to unnecessary corrective actions.
 </div>
 
