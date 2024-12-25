@@ -3,7 +3,7 @@ layout: inner
 title: Shark Tank Deal Prediction
 permalink: /portfolio/shark-tank-deal-prediction/
 ---
-<div class="container" style="margin-top: 50px;">
+<div class="container" style="margin-top: 10px;">
 
   <!-- Title Section -->
   <div class="row">
