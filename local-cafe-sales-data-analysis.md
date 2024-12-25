@@ -3,7 +3,7 @@ layout: inner
 title: Local Cafe Sales Data Analysis
 permalink: /portfolio/local-cafe-sales-data-analysis/
 ---
-<div class="container" style="margin-top: 50px;">
+<div class="container" style="margin-top: 10px;">
 
   <!-- Title Section -->
   <div class="row">
