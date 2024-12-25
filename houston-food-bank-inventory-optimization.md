@@ -4,7 +4,7 @@ title: Houston Food Inventory Optimization
 permalink: /portfolio/houston-food-bank-inventory-optimization/
 ---
 
-<div class="container" style="margin-top: 50px;">
+<div class="container" style="margin-top: 10px;">
 
   <!-- Title Section -->
   <div class="row">
