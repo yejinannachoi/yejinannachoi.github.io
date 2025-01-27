@@ -30,7 +30,7 @@ permalink: /portfolio/mlb-gold-glove-award-prediction/
   <!-- Image Section -->
   <div class="row" style="margin-bottom: 10px;">
     <div class="col-12">
-      <img src="{{ site.baseurl }}/mlb-gold-glove-award-prediction/gold-glove-header.jpg" alt="Cafe" class="img-fluid" style="max-width: 100%; width: 700px; display: block;">
+      <img src="{{ site.baseurl }}/mlb-gold-glove-award-prediction/gold-glove-header.jpg" alt="Gold Glove Award" class="img-fluid" style="max-width: 100%; width: 700px; display: block;">
     </div>
   </div>
 </div>
