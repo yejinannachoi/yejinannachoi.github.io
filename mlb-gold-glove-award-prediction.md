@@ -39,3 +39,5 @@ permalink: /portfolio/mlb-gold-glove-award-prediction/
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif; margin-bottom: 40px;">Photo by <a href="https://www.rawlings.com/gold-glove-criteria.html" style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">Rawlings Sporting Goods</a></div>
 
 <div style="font-size:16px; font-family: 'Source Sans 3', sans-serif;"><strong><a href="https://github.com/yejinannachoi/mlb-gold-glove-award-prediction" style="font-size:16px; font-family: 'Source Sans 3', sans-serif;">Link to the GitHub repository</a></strong> with all the datasets, Python code work, and presentation slides.</div>
+
+</div>
